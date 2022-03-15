@@ -540,11 +540,13 @@ console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message f
 JavaScript warning: https://accounts.google.com/ServiceLogin line 1 > eval line 2019 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
 console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://accounts.google.com"
 JavaScript warning: https://accounts.google.com/ServiceLogin line 1 > eval line 5996 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
-1647330780278	geckodriver	INFO	Listening on 127.0.0.1:63444
-1647330783380	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "63445" "-no-remote" "-profile" "C:\\Users\\3CDE~1\\AppData\\Local\\Temp\\rust_mozprofile8H45aF"
-1647330783884	Marionette	INFO	Marionette enabled
-console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\\u042F\u0440\u043E\u0441\u043B\u0430\u0432\\AppData\\Local\\Temp\\rust_mozprofile8H45aF\\search.json.mozlz4", (void 0)))
-DevTools listening on ws://localhost:63445/devtools/browser/eb044ad8-ab9a-4134-b999-4d2c20e4b48e
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://accounts.google.com"
+1647341229970	Marionette	INFO	Stopped listening on port 53808
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: OperationError: Could not move temporary file(C:\Users\Ярослав\AppData\Local\Temp\rust_mozprofileuQRwsH\sessionCheckpoints.json.tmp) to destination(C:\Users\Ярослав\AppData\Local\Temp\rust_mozprofileuQRwsH\sessionCheckpoints.json)
+
+###!!! [Parent][PGPUParent] Error: RunMessage(msgname=PGPU::Msg_ShutdownVR) Channel closing: too late to send/recv, messages will be lost
+
+lhost:63445/devtools/browser/eb044ad8-ab9a-4134-b999-4d2c20e4b48e
 1647330786798	Marionette	INFO	Listening on port 63451
 1647330787157	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
 console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://accounts.google.com"
@@ -559,3 +561,1172 @@ console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message f
 JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
 console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://myaccount.google.com"
 JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+1647341230639	Marionette	INFO	Stopped listening on port 63451
+7341131631	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "57838" "-no-remote" "-profile" "C:\\Users\\3CDE~1\\AppData\\Local\\Temp\\rust_mozprofileV0wFdj"
+1647341132144	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\\u042F\u0440\u043E\u0441\u043B\u0430\u0432\\AppData\\Local\\Temp\\rust_mozprofileV0wFdj\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:57838/devtools/browser/7a1c1b83-d084-4ffc-aa27-38d832752cee
+1647341135131	Marionette	INFO	Listening on port 57844
+1647341135312	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://accounts.google.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://accounts.google.com"
+JavaScript warning: https://accounts.google.com/ServiceLogin line 1 > eval line 2019 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://accounts.google.com"
+JavaScript warning: https://accounts.google.com/ServiceLogin line 1 > eval line 6160 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://accounts.google.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://accounts.google.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://accounts.google.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://myaccount.google.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+1647341232132	Marionette	INFO	Stopped listening on port 57844
+7341227672	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "49925" "-no-remote" "-profile" "C:\\Users\\3CDE~1\\AppData\\Local\\Temp\\rust_mozprofileQoJdE9"
+1647341228280	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\\u042F\u0440\u043E\u0441\u043B\u0430\u0432\\AppData\\Local\\Temp\\rust_mozprofileQoJdE9\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:49925/devtools/browser/5014906d-d6a1-42c3-9626-8ad8ec08e772
+1647341232907	Marionette	INFO	Listening on port 49931
+1647341233156	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://accounts.google.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://accounts.google.com"
+JavaScript warning: https://accounts.google.com/ServiceLogin line 1 > eval line 7726 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://accounts.google.com"
+JavaScript warning: https://accounts.google.com/ServiceLogin line 1 > eval line 6839 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://accounts.google.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://accounts.google.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://accounts.google.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://myaccount.google.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://yandex.ru"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://yandex.ru"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+JavaScript warning: https://mc.yandex.ru/metrika/watch_serp.js, line 12: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.google.com/js/bg/hbjI8xylHpjavQyfdphvo41Bfdkh_RgUM1b0sbpcRZI.js line 1 > eval line 4450 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1647341966471	Marionette	INFO	Stopped listening on port 49931
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+remote-debugging-port" "50330" "-no-remote" "-profile" "C:\\Users\\3CDE~1\\AppData\\Local\\Temp\\rust_mozprofilejb3ojv"
+1647341647430	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\\u042F\u0440\u043E\u0441\u043B\u0430\u0432\\AppData\\Local\\Temp\\rust_mozprofilejb3ojv\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:50330/devtools/browser/fa2285b2-b3ab-46fc-b40a-469dd621ba3a
+1647341650648	Marionette	INFO	Listening on port 50340
+1647341651120	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://accounts.google.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://accounts.google.com"
+JavaScript warning: https://accounts.google.com/ServiceLogin line 1 > eval line 5804 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1647341658759	Marionette	INFO	Stopped listening on port 50340
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1647341666033	geckodriver	INFO	Listening on 127.0.0.1:50404
+1647341669092	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "50405" "-no-remote" "-profile" "C:\\Users\\3CDE~1\\AppData\\Local\\Temp\\rust_mozprofilekVn08c"
+1647341669852	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\\u042F\u0440\u043E\u0441\u043B\u0430\u0432\\AppData\\Local\\Temp\\rust_mozprofilekVn08c\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:50405/devtools/browser/04055e1b-f4e0-4980-9b3f-f9951ea66777
+1647341673371	Marionette	INFO	Listening on port 50411
+1647341673419	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://accounts.google.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://accounts.google.com"
+1647341677219	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:235:19
+TimedPromise@chrome://remote/content/marionette/sync.js:220:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+JavaScript warning: https://accounts.google.com/ServiceLogin line 1 > eval line 6256 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://accounts.google.com"
+1647341968052	Marionette	INFO	Stopped listening on port 50411
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+remote-debugging-port" "54194" "-no-remote" "-profile" "C:\\Users\\3CDE~1\\AppData\\Local\\Temp\\rust_mozprofile8QeDFP"
+1647341967477	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\\u042F\u0440\u043E\u0441\u043B\u0430\u0432\\AppData\\Local\\Temp\\rust_mozprofile8QeDFP\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:54194/devtools/browser/fae36b36-27d7-41ad-85a3-86d7e140d1a4
+1647341970434	Marionette	INFO	Listening on port 54200
+1647341970895	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://accounts.google.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://accounts.google.com"
+JavaScript warning: https://accounts.google.com/ServiceLogin line 1 > eval line 1096 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://accounts.google.com"
+JavaScript warning: https://accounts.google.com/ServiceLogin line 1 > eval line 5104 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://accounts.google.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://accounts.google.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://accounts.google.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://myaccount.google.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://mail.google.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+JavaScript warning: https://www.google.com/js/bg/nuRxMH4-hdTChYjwlrjO-HW19HyWaJLvFJxS2qLs-7c.js line 1 > eval line 1981 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://mc.yandex.ru/metrika/watch_serp.js, line 12: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: resource://devtools/server/connectors/js-window-actor/DevToolsFrameParent.jsm, line 217: TypeError: watcher is undefined
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+1647343036174	Marionette	INFO	Stopped listening on port 54200
+[Parent 16560, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+[Parent 16560, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+icate errors will be ignored for this session
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://accounts.google.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://accounts.google.com"
+JavaScript warning: https://accounts.google.com/ServiceLogin line 1 > eval line 3 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://accounts.google.com"
+JavaScript warning: https://accounts.google.com/ServiceLogin line 1 > eval line 373 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://accounts.google.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://accounts.google.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://accounts.google.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://myaccount.google.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://mail.google.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+JavaScript warning: https://www.google.com/js/bg/nuRxMH4-hdTChYjwlrjO-HW19HyWaJLvFJxS2qLs-7c.js line 1 > eval line 961 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1647342745750	Marionette	INFO	Stopped listening on port 49764
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PContent::Reply_DiscardBrowsingContext) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PContent::Reply_DiscardBrowsingContext) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PHttpChannel::Msg_DeleteSelf) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Msg_DestroyBrowsingContextGroup) Closed channel: cannot send/recv
+
+
+###!!! [Child][PContentChild] Error: Send(msgname=PBrowser::Msg___delete__) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PContent::Reply_DiscardBrowsingContext) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PContent::Reply_DiscardBrowsingContext) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PContent::Reply_DiscardBrowsingContext) Channel closing: too late to send/recv, messages will be lost
+
+1647343051546	geckodriver	INFO	Listening on 127.0.0.1:55982
+1647343054601	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "55983" "-no-remote" "-profile" "C:\\Users\\3CDE~1\\AppData\\Local\\Temp\\rust_mozprofilezDXmu6"
+1647343055421	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\\u042F\u0440\u043E\u0441\u043B\u0430\u0432\\AppData\\Local\\Temp\\rust_mozprofilezDXmu6\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:55983/devtools/browser/34575126-39f7-49ee-a31c-b4b4e650e9e6
+1647343058645	Marionette	INFO	Listening on port 55988
+1647343058905	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://accounts.google.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://accounts.google.com"
+JavaScript warning: https://accounts.google.com/ServiceLogin line 1 > eval line 112 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://accounts.google.com"
+JavaScript warning: https://accounts.google.com/ServiceLogin line 1 > eval line 1778 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://accounts.google.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://accounts.google.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://accounts.google.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://myaccount.google.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://mail.google.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+JavaScript warning: https://www.google.com/js/bg/nuRxMH4-hdTChYjwlrjO-HW19HyWaJLvFJxS2qLs-7c.js line 1 > eval line 677 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://mc.yandex.ru/metrika/watch_serp.js, line 12: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://addons.mozilla.org"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+WARNING: content window passed to PrivateBrowsingUtils.isWindowPrivate. Use isContentWindowPrivate instead (but only for frame scripts).
+pbu_isWindowPrivate@resource://gre/modules/PrivateBrowsingUtils.jsm:27:11
+isBrowserPrivate@resource://gre/modules/PrivateBrowsingUtils.jsm:47:19
+loadURI@resource://gre/modules/RemoteWebNavigation.jsm:90:51
+loadURI/<@chrome://global/content/elements/browser-custom-element.js:809:28
+_wrapURIChangeCall@chrome://global/content/elements/browser-custom-element.js:738:9
+loadURI@chrome://global/content/elements/browser-custom-element.js:808:12
+loadURI@chrome://mozapps/content/extensions/aboutaddons.js:2477:18
+render/<@chrome://mozapps/content/extensions/aboutaddons.js:2456:14
+render@chrome://mozapps/content/extensions/aboutaddons.js:2415:11
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+1647343806135	Marionette	INFO	Stopped listening on port 55988
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PHttpChannel::Msg_DeleteSelf) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PHttpChannel::Msg_DeleteSelf) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Parent][PGPUParent] Error: RunMessage(msgname=PGPU::Msg_ShutdownVR) Channel closing: too late to send/recv, messages will be lost
+
+1647344069935	geckodriver	INFO	Listening on 127.0.0.1:64980
+1647344073017	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Firefox Developer Edition\\firefox.exe" "--marionette" "--remote-debugging-port" "64981" "-no-remote" "-profile" "C:\\Users\\3CDE~1\\AppData\\Local\\Temp\\rust_mozprofileulKjYK"
+1647344073719	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\3CDE~1\\AppData\\Local\\Temp\\rust_mozprofileulKjYK\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:64981/devtools/browser/05b905dd-7a18-4654-9c0f-36fb9c6d1e0a
+1647344077106	Marionette	INFO	Listening on port 64987
+1647344077320	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://accounts.google.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://accounts.google.com"
+JavaScript warning: https://accounts.google.com/ServiceLogin line 1 > eval line 3874 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://accounts.google.com"
+JavaScript warning: https://accounts.google.com/ServiceLogin line 1 > eval line 6445 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://accounts.google.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://accounts.google.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: can't access property "getRecipesForHost", gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://accounts.google.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: can't access property "getRecipesForHost", gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://myaccount.google.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: can't access property "getRecipesForHost", gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://mail.google.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: can't access property "getRecipesForHost", gRecipeManager is null
+JavaScript warning: https://www.google.com/js/bg/nuRxMH4-hdTChYjwlrjO-HW19HyWaJLvFJxS2qLs-7c.js line 1 > eval line 1134 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://mail.google.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: can't access property "getRecipesForHost", gRecipeManager is null
+JavaScript warning: https://www.google.com/js/bg/hbjI8xylHpjavQyfdphvo41Bfdkh_RgUM1b0sbpcRZI.js line 1 > eval line 2270 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://mail.google.com/_/scs/mail-static/_/js/k=gmail.main.ru.XRhrm5Wp9YI.es5.O/am=AJfE_yX8EQADfPztwM92MCQcCIBg4QiA8AlimVXJGt6gJPsPoj8kgH5VDIYBYMxnoOMgwAcGAAAAAAAAAAAAAAAAAAAAdoUUgwE/d=1/exm=a,b/ed=1/im=1/dg=0/br=1/wt=1/rs=AHGWq9BB4yk4WkAmjn6k_uMtpweSH924vg/cb=loaded_2/m=m,m_i,i20jfd,lKrWxc,hkjXJ,gYOl6d,HXLjIb,DL8jZe,xaQcye,J41knb,oRmHt,E1P0kd,pE92lb,v2eEBc, line 3870: Script terminated by timeout at:
+_.Lwe@https://mail.google.com/_/scs/mail-static/_/js/k=gmail.main.ru.XRhrm5Wp9YI.es5.O/am=AJfE_yX8EQADfPztwM92MCQcCIBg4QiA8AlimVXJGt6gJPsPoj8kgH5VDIYBYMxnoOMgwAcGAAAAAAAAAAAAAAAAAAAAdoUUgwE/d=1/exm=a,b/ed=1/im=1/dg=0/br=1/wt=1/rs=AHGWq9BB4yk4WkAmjn6k_uMtpweSH924vg/cb=loaded_2/m=m,m_i,i20jfd,lKrWxc,hkjXJ,gYOl6d,HXLjIb,DL8jZe,xaQcye,J41knb,oRmHt,E1P0kd,pE92lb,v2eEBc:3870:135
+Nze/Kze<@https://mail.google.com/_/scs/mail-static/_/js/k=gmail.main.ru.XRhrm5Wp9YI.es5.O/am=AJfE_yX8EQADfPztwM92MCQcCIBg4QiA8AlimVXJGt6gJPsPoj8kgH5VDIYBYMxnoOMgwAcGAAAAAAAAAAAAAAAAAAAAdoUUgwE/d=1/exm=a,b/ed=1/im=1/dg=0/br=1/wt=1/rs=AHGWq9BB4yk4WkAmjn6k_uMtpweSH924vg/cb=loaded_2/m=m,m_i,i20jfd,lKrWxc,hkjXJ,gYOl6d,HXLjIb,DL8jZe,xaQcye,J41knb,oRmHt,E1P0kd,pE92lb,v2eEBc:3929:158
+_.Gze@https://mail.google.com/_/scs/mail-static/_/js/k=gmail.main.ru.XRhrm5Wp9YI.es5.O/am=AJfE_yX8EQADfPztwM92MCQcCIBg4QiA8AlimVXJGt6gJPsPoj8kgH5VDIYBYMxnoOMgwAcGAAAAAAAAAAAAAAAAAAAAdoUUgwE/d=1/exm=a,b/ed=1/im=1/dg=0/br=1/wt=1/rs=AHGWq9BB4yk4WkAmjn6k_uMtpweSH924vg/cb=loaded_2/m=m,m_i,i20jfd,lKrWxc,hkjXJ,gYOl6d,HXLjIb,DL8jZe,xaQcye,J41knb,oRmHt,E1P0kd,pE92lb,v2eEBc:3926:71
+_.v.wFa@https://mail.google.com/_/scs/mail-static/_/js/k=gmail.main.ru.XRhrm5Wp9YI.es5.O/am=AJfE_yX8EQADfPztwM92MCQcCIBg4QiA8AlimVXJGt6gJPsPoj8kgH5VDIYBYMxnoOMgwAcGAAAAAAAAAAAAAAAAAAAAdoUUgwE/d=1/exm=a,b/ed=1/im=1/dg=0/br=1/wt=1/rs=AHGWq9BB4yk4WkAmjn6k_uMtpweSH924vg/cb=loaded_2/m=m,m_i,i20jfd,lKrWxc,hkjXJ,gYOl6d,HXLjIb,DL8jZe,xaQcye,J41knb,oRmHt,E1P0kd,pE92lb,v2eEBc:3928:37
+_.v.Spb@https://mail.google.com/_/scs/mail-static/_/js/k=gmail.main.ru.XRhrm5Wp9YI.es5.O/am=AJfE_yX8EQADfPztwM92MCQcCIBg4QiA8AlimVXJGt6gJPsPoj8kgH5VDIYBYMxnoOMgwAcGAAAAAAAAAAAAAAAAAAAAdoUUgwE/d=1/exm=a,b/ed=1/im=1/dg=0/br=1/wt=1/rs=AHGWq9BB4yk4WkAmjn6k_uMtpweSH924vg/cb=loaded_2/m=m,m_i,i20jfd,lKrWxc,hkjXJ,gYOl6d,HXLjIb,DL8jZe,xaQcye,J41knb,oRmHt,E1P0kd,pE92lb,v2eEBc:3927:436
+_.v.Mc@https://mail.google.com/_/scs/mail-static/_/js/k=gmail.main.ru.XRhrm5Wp9YI.es5.O/am=AJfE_yX8EQADfPztwM92MCQcCIBg4QiA8AlimVXJGt6gJPsPoj8kgH5VDIYBYMxnoOMgwAcGAAAAAAAAAAAAAAAAAAAAdoUUgwE/d=1/im=1/dg=0/br=1/wt=1/rs=AHGWq9BB4yk4WkAmjn6k_uMtpweSH924vg/cb=loaded_0/m=b:869:171
+yam@https://mail.google.com/_/scs/mail-static/_/js/k=gmail.main.ru.XRhrm5Wp9YI.es5.O/am=AJfE_yX8EQADfPztwM92MCQcCIBg4QiA8AlimVXJGt6gJPsPoj8kgH5VDIYBYMxnoOMgwAcGAAAAAAAAAAAAAAAAAAAAdoUUgwE/d=1/exm=AQzzK,Aihl6c,Av2a7c,BIgGS,CTcde,Cmvl0d,DL8jZe,DUNnfe,DjaFmc,E1P0kd,EVZC0d,FSHQ1d,FY4xZc,Ff0R9c,Gi2hff,H6G42e,HLvCjc,HSnlPc,HXLjIb,IcviEd,IiBrJf,J03Die,J0c0De,J41knb,LMZAzc,M184fc,M25vPb,MAQNkf,MHpzHf,MMhUM,MigGy,MpJwZc,N35dyc,NUmjQc,NVcOs,Nzme9,O9Wdw,OEaYAf,OIxRw,Odkg3b,P8J5Md,PDSZTe,PLFcdb,PQy06e,PZhDZb,PaBahd,PtOM,Q8AZuf,RGIyZe,RI4GO,RqJ0h,Sz7W7c,Trl7bc,UZdBGe,V88ABc,VOAugd,VeTcob,Vfi8Gb,VoSDvb,VxVlrc,WQKEXd,Wwwwbc,XSXB1d,Xg6p3c,YesRdb,Yns7ze,YyKOm,Z16oCd,ZARu9e,ZSB1L,ZThjHe,ZUhrff,ZUkdn,ZgCoOd,Zxsddf,aBj2Kc,aEgFwf,anc,be,bfl9hd,blMNCd,c91q5c,cXmWHe,cm,coi,cs,cv,dFpypf,dKGjGc,dLIOJe,djoBOd,dyGTpe,e,eIu7Db,ebdd,f,f6apvd,gYOl6d,gr8chf,gtqvOc,hS6RLb,hkjXJ,i20jfd,idosse,igbF5,it,jPErQb,jVZ0pe,jWbVSe,kL0rjf,kRtote,kbPIy,kx0uyc,l,lKrWxc,lLYctc,laqh9b,lhJ7R,mDFAuf,m_i,mib1Lb,ml,n73qwf,ngpaqe,niGKwf,o2ajQe,oRmHt,oTMABb,oeJi0c,p59Uie,pA5mjb,pE92lb,pauPV,pmnVQ,puPi7e,qXzOkf,rMQdJc,rbV53d,rn4kU,sU8HHe,sm,spit,sps,t,tC0yce,utMpr,uuoH9c,v2eEBc,vGa3Ad,vXhLBe,w0FYpd,wHcxDd,wS0DLb,wvjFZd,x8nlqe,xaQcye,xgwBDf,xivAT,xtTtLb,yWJZbc,zPd59e,zQDsMd,zm225/ed=1/im=1/br=1/rs=AHGWq9BB4yk4WkAmjn6k_uMtpweSH924vg/ee=vSg7wf:VoSDvb;JFpGO:FSHQ1d;cEt90b:ws9Tlc;U9MqLc:O9Wdw;AmxNie:vhqcae;kyP75:xz7Adc;Pm28j:LDM3Ud;yxTchf:KUM7Z;qddgKe:xQtZb;wR5FRb:siKnQd;iFQyKf:vfuNJf;dIoSBb:SpsfSb;BYuhzd:OQC1N;z5fVzd:WeaBBb;epTDe:BK7Rvf;hqAEfb:T9U3df;Oj465e:KG2eXe;lw1rzf:mDFAuf;yR6u0d:YesRdb;z55xK:O18Eyf;nAFL3:NTMZac;oGtAuc:sOXFj;eBAeSb:zbML3c;zxjSOb:VJrhKe;BNeSrd:PLFcdb;m5fIF:nbXCtd;O9G84b:VjR9rd;NPKaK:PVlQOd;LBgRLc:XVMNvd/m=WXDMTb:32:222
+_.v.Yra@https://mail.google.com/_/scs/mail-static/_/js/k=gmail.main.ru.XRhrm5Wp9YI.es5.O/am=AJfE_yX8EQADfPztwM92MCQcCIBg4QiA8AlimVXJGt6gJPsPoj8kgH5VDIYBYMxnoOMgwAcGAAAAAAAAAAAAAAAAAAAAdoUUgwE/d=1/exm=AQzzK,Aihl6c,Av2a7c,BIgGS,CTcde,Cmvl0d,DL8jZe,DUNnfe,DjaFmc,E1P0kd,EVZC0d,FSHQ1d,FY4xZc,Ff0R9c,Gi2hff,H6G42e,HLvCjc,HSnlPc,HXLjIb,IcviEd,IiBrJf,J03Die,J0c0De,J41knb,LMZAzc,M184fc,M25vPb,MAQNkf,MHpzHf,MMhUM,MigGy,MpJwZc,N35dyc,NUmjQc,NVcOs,Nzme9,O9Wdw,OEaYAf,OIxRw,Odkg3b,P8J5Md,PDSZTe,PLFcdb,PQy06e,PZhDZb,PaBahd,PtOM,Q8AZuf,RGIyZe,RI4GO,RqJ0h,Sz7W7c,Trl7bc,UZdBGe,V88ABc,VOAugd,VeTcob,Vfi8Gb,VoSDvb,VxVlrc,WQKEXd,Wwwwbc,XSXB1d,Xg6p3c,YesRdb,Yns7ze,YyKOm,Z16oCd,ZARu9e,ZSB1L,ZThjHe,ZUhrff,ZUkdn,ZgCoOd,Zxsddf,aBj2Kc,aEgFwf,anc,be,bfl9hd,blMNCd,c91q5c,cXmWHe,cm,coi,cs,cv,dFpypf,dKGjGc,dLIOJe,djoBOd,dyGTpe,e,eIu7Db,ebdd,f,f6apvd,gYOl6d,gr8chf,gtqvOc,hS6RLb,hkjXJ,i20jfd,idosse,igbF5,it,jPErQb,jVZ0pe,jWbVSe,kL0rjf,kRtote,kbPIy,kx0uyc,l,lKrWxc,lLYctc,laqh9b,lhJ7R,mDFAuf,m_i,mib1Lb,ml,n73qwf,ngpaqe,niGKwf,o2ajQe,oRmHt,oTMABb,oeJi0c,p59Uie,pA5mjb,pE92lb,pauPV,pmnVQ,puPi7e,qXzOkf,rMQdJc,rbV53d,rn4kU,sU8HHe,sm,spit,sps,t,tC0yce,utMpr,uuoH9c,v2eEBc,vGa3Ad,vXhLBe,w0FYpd,wHcxDd,wS0DLb,wvjFZd,x8nlqe,xaQcye,xgwBDf,xivAT,xtTtLb,yWJZbc,zPd59e,zQDsMd,zm225/ed=1/im=1/br=1/rs=AHGWq9BB4yk4WkAmjn6k_uMtpweSH924vg/ee=vSg7wf:VoSDvb;JFpGO:FSHQ1d;cEt90b:ws9Tlc;U9MqLc:O9Wdw;AmxNie:vhqcae;kyP75:xz7Adc;Pm28j:LDM3Ud;yxTchf:KUM7Z;qddgKe:xQtZb;wR5FRb:siKnQd;iFQyKf:vfuNJf;dIoSBb:SpsfSb;BYuhzd:OQC1N;z5fVzd:WeaBBb;epTDe:BK7Rvf;hqAEfb:T9U3df;Oj465e:KG2eXe;lw1rzf:mDFAuf;yR6u0d:YesRdb;z55xK:O18Eyf;nAFL3:NTMZac;oGtAuc:sOXFj;eBAeSb:zbML3c;zxjSOb:VJrhKe;BNeSrd:PLFcdb;m5fIF:nbXCtd;O9G84b:VjR9rd;NPKaK:PVlQOd;LBgRLc:XVMNvd/m=WXDMTb:31:368
+_.v.Yp@https://mail.google.com/_/scs/mail-static/_/js/k=gmail.main.ru.XRhrm5Wp9YI.es5.O/am=AJfE_yX8EQADfPztwM92MCQcCIBg4QiA8AlimVXJGt6gJPsPoj8kgH5VDIYBYMxnoOMgwAcGAAAAAAAAAAAAAAAAAAAAdoUUgwE/d=1/exm=AQzzK,Aihl6c,Av2a7c,BIgGS,CTcde,Cmvl0d,DL8jZe,DUNnfe,DjaFmc,E1P0kd,EVZC0d,FSHQ1d,FY4xZc,Ff0R9c,Gi2hff,H6G42e,HLvCjc,HSnlPc,HXLjIb,IcviEd,IiBrJf,J03Die,J0c0De,J41knb,LMZAzc,M184fc,M25vPb,MAQNkf,MHpzHf,MMhUM,MigGy,MpJwZc,N35dyc,NUmjQc,NVcOs,Nzme9,O9Wdw,OEaYAf,OIxRw,Odkg3b,P8J5Md,PDSZTe,PLFcdb,PQy06e,PZhDZb,PaBahd,PtOM,Q8AZuf,RGIyZe,RI4GO,RqJ0h,Sz7W7c,Trl7bc,UZdBGe,V88ABc,VOAugd,VeTcob,Vfi8Gb,VoSDvb,VxVlrc,WQKEXd,Wwwwbc,XSXB1d,Xg6p3c,YesRdb,Yns7ze,YyKOm,Z16oCd,ZARu9e,ZSB1L,ZThjHe,ZUhrff,ZUkdn,ZgCoOd,Zxsddf,aBj2Kc,aEgFwf,anc,be,bfl9hd,blMNCd,c91q5c,cXmWHe,cm,coi,cs,cv,dFpypf,dKGjGc,dLIOJe,djoBOd,dyGTpe,e,eIu7Db,ebdd,f,f6apvd,gYOl6d,gr8chf,gtqvOc,hS6RLb,hkjXJ,i20jfd,idosse,igbF5,it,jPErQb,jVZ0pe,jWbVSe,kL0rjf,kRtote,kbPIy,kx0uyc,l,lKrWxc,lLYctc,laqh9b,lhJ7R,mDFAuf,m_i,mib1Lb,ml,n73qwf,ngpaqe,niGKwf,o2ajQe,oRmHt,oTMABb,oeJi0c,p59Uie,pA5mjb,pE92lb,pauPV,pmnVQ,puPi7e,qXzOkf,rMQdJc,rbV53d,rn4kU,sU8HHe,sm,spit,sps,t,tC0yce,utMpr,uuoH9c,v2eEBc,vGa3Ad,vXhLBe,w0FYpd,wHcxDd,wS0DLb,wvjFZd,x8nlqe,xaQcye,xgwBDf,xivAT,xtTtLb,yWJZbc,zPd59e,zQDsMd,zm225/ed=1/im=1/br=1/rs=AHGWq9BB4yk4WkAmjn6k_uMtpweSH924vg/ee=vSg7wf:VoSDvb;JFpGO:FSHQ1d;cEt90b:ws9Tlc;U9MqLc:O9Wdw;AmxNie:vhqcae;kyP75:xz7Adc;Pm28j:LDM3Ud;yxTchf:KUM7Z;qddgKe:xQtZb;wR5FRb:siKnQd;iFQyKf:vfuNJf;dIoSBb:SpsfSb;BYuhzd:OQC1N;z5fVzd:WeaBBb;epTDe:BK7Rvf;hqAEfb:T9U3df;Oj465e:KG2eXe;lw1rzf:mDFAuf;yR6u0d:YesRdb;z55xK:O18Eyf;nAFL3:NTMZac;oGtAuc:sOXFj;eBAeSb:zbML3c;zxjSOb:VJrhKe;BNeSrd:PLFcdb;m5fIF:nbXCtd;O9G84b:VjR9rd;NPKaK:PVlQOd;LBgRLc:XVMNvd/m=WXDMTb:31:328
+L6d/</<@https://mail.google.com/_/scs/mail-static/_/js/k=gmail.main.ru.XRhrm5Wp9YI.es5.O/am=AJfE_yX8EQADfPztwM92MCQcCIBg4QiA8AlimVXJGt6gJPsPoj8kgH5VDIYBYMxnoOMgwAcGAAAAAAAAAAAAAAAAAAAAdoUUgwE/d=1/exm=a,b/ed=1/im=1/dg=0/br=1/wt=1/rs=AHGWq9BB4yk4WkAmjn6k_uMtpweSH924vg/cb=loaded_2/m=m,m_i,i20jfd,lKrWxc,hkjXJ,gYOl6d,HXLjIb,DL8jZe,xaQcye,J41knb,oRmHt,E1P0kd,pE92lb,v2eEBc:1207:503
+ySa/e.ha</e.wa<@https://mail.google.com/_/scs/mail-static/_/js/k=gmail.main.ru.XRhrm5Wp9YI.es5.O/am=AJfE_yX8EQADfPztwM92MCQcCIBg4QiA8AlimVXJGt6gJPsPoj8kgH5VDIYBYMxnoOMgwAcGAAAAAAAAAAAAAAAAAAAAdoUUgwE/d=1/im=1/dg=0/br=1/wt=1/rs=AHGWq9BB4yk4WkAmjn6k_uMtpweSH924vg/cb=loaded_0/m=b:380:476
+_.cr.Oqa@https://mail.google.com/_/scs/mail-static/_/js/k=gmail.main.ru.XRhrm5Wp9YI.es5.O/am=AJfE_yX8EQADfPztwM92MCQcCIBg4QiA8AlimVXJGt6gJPsPoj8kgH5VDIYBYMxnoOMgwAcGAAAAAAAAAAAAAAAAAAAAdoUUgwE/d=1/im=1/dg=0/br=1/wt=1/rs=AHGWq9BB4yk4WkAmjn6k_uMtpweSH924vg/cb=loaded_0/m=b:384:36
+CSa@https://mail.google.com/_/scs/mail-static/_/js/k=gmail.main.ru.XRhrm5Wp9YI.es5.O/am=AJfE_yX8EQADfPztwM92MCQcCIBg4QiA8AlimVXJGt6gJPsPoj8kgH5VDIYBYMxnoOMgwAcGAAAAAAAAAAAAAAAAAAAAdoUUgwE/d=1/im=1/dg=0/br=1/wt=1/rs=AHGWq9BB4yk4WkAmjn6k_uMtpweSH924vg/cb=loaded_0/m=b:383:356
+_.cr.prototype.tSa@https://mail.google.com/_/scs/mail-static/_/js/k=gmail.main.ru.XRhrm5Wp9YI.es5.O/am=AJfE_yX8EQADfPztwM92MCQcCIBg4QiA8AlimVXJGt6gJPsPoj8kgH5VDIYBYMxnoOMgwAcGAAAAAAAAAAAAAAAAAAAAdoUUgwE/d=1/im=1/dg=0/br=1/wt=1/rs=AHGWq9BB4yk4WkAmjn6k_uMtpweSH924vg/cb=loaded_0/m=b:383:123
+_.V4o/T4o</<@https://mail.google.com/_/scs/mail-static/_/js/k=gmail.main.ru.XRhrm5Wp9YI.es5.O/am=AJfE_yX8EQADfPztwM92MCQcCIBg4QiA8AlimVXJGt6gJPsPoj8kgH5VDIYBYMxnoOMgwAcGAAAAAAAAAAAAAAAAAAAAdoUUgwE/d=1/exm=Aihl6c,Av2a7c,CTcde,Cmvl0d,DL8jZe,DUNnfe,E1P0kd,EVZC0d,FSHQ1d,FY4xZc,HXLjIb,IiBrJf,J03Die,J41knb,M25vPb,MMhUM,MigGy,MpJwZc,N35dyc,NVcOs,OIxRw,PZhDZb,PaBahd,RI4GO,Sz7W7c,Trl7bc,UZdBGe,VOAugd,VeTcob,Zxsddf,anc,cs,cv,dFpypf,dLIOJe,dyGTpe,eIu7Db,ebdd,f,gYOl6d,gtqvOc,hS6RLb,hkjXJ,i20jfd,igbF5,it,jVZ0pe,kL0rjf,kRtote,kbPIy,l,lKrWxc,lLYctc,m_i,ml,n73qwf,o2ajQe,oRmHt,oeJi0c,pA5mjb,pE92lb,pauPV,puPi7e,rMQdJc,rn4kU,sm,spit,sps,t,utMpr,uuoH9c,v2eEBc,vGa3Ad,vXhLBe,wvjFZd,xaQcye,yWJZbc,zQDsMd,zm225/ed=1/im=1/br=1/rs=AHGWq9BB4yk4WkAmjn6k_uMtpweSH924vg/ee=vSg7wf:VoSDvb;JFpGO:FSHQ1d;cEt90b:ws9Tlc;U9MqLc:O9Wdw;AmxNie:vhqcae;kyP75:xz7Adc;Pm28j:LDM3Ud;yxTchf:KUM7Z;qddgKe:xQtZb;wR5FRb:siKnQd;iFQyKf:vfuNJf;dIoSBb:SpsfSb;BYuhzd:OQC1N;z5fVzd:WeaBBb;epTDe:BK7Rvf;hqAEfb:T9U3df;Oj465e:KG2eXe;lw1rzf:mDFAuf;yR6u0d:YesRdb;z55xK:O18Eyf;nAFL3:NTMZac;oGtAuc:sOXFj;eBAeSb:zbML3c;zxjSOb:VJrhKe;BNeSrd:PLFcdb;m5fIF:nbXCtd;O9G84b:VjR9rd;NPKaK:PVlQOd;LBgRLc:XVMNvd/m=PDSZTe,ZThjHe,cXmWHe,mib1Lb,Wwwwbc,pmnVQ,P8J5Md,IcviEd,jPErQb,x8nlqe,xivAT,ZUhrff,M184fc,Z16oCd,bfl9hd,niGKwf,Gi2hff,wHcxDd,wS0DLb,Q8AZuf,V88ABc,Nzme9:40:128
+uWa.prototype.wa@https://mail.google.com/_/scs/mail-static/_/js/k=gmail.main.ru.XRhrm5Wp9YI.es5.O/am=AJfE_yX8EQADfPztwM92MCQcCIBg4QiA8AlimVXJGt6gJPsPoj8kgH5VDIYBYMxnoOMgwAcGAAAAAAAAAAAAAAAAAAAAdoUUgwE/d=1/im=1/dg=0/br=1/wt=1/rs=AHGWq9BB4yk4WkAmjn6k_uMtpweSH924vg/cb=loaded_0/m=b:467:75
+N8b/<@https://mail.google.com/_/scs/mail-static/_/js/k=gmail.main.ru.XRhrm5Wp9YI.es5.O/am=AJfE_yX8EQADfPztwM92MCQcCIBg4QiA8AlimVXJGt6gJPsPoj8kgH5VDIYBYMxnoOMgwAcGAAAAAAAAAAAAAAAAAAAAdoUUgwE/d=1/im=1/dg=0/br=1/wt=1/rs=AHGWq9BB4yk4WkAmjn6k_uMtpweSH924vg/cb=loaded_0/m=b:2377:197
+uWa.prototype.wa@https://mail.google.com/_/scs/mail-static/_/js/k=gmail.main.ru.XRhrm5Wp9YI.es5.O/am=AJfE_yX8EQADfPztwM92MCQcCIBg4QiA8AlimVXJGt6gJPsPoj8kgH5VDIYBYMxnoOMgwAcGAAAAAAAAAAAAAAAAAAAAdoUUgwE/d=1/im=1/dg=0/br=1/wt=1/rs=AHGWq9BB4yk4WkAmjn6k_uMtpweSH924vg/cb=loaded_0/m=b:467:75
+_.K9b@https://mail.google.com/_/scs/mail-static/_/js/k=gmail.main.ru.XRhrm5Wp9YI.es5.O/am=AJfE_yX8EQADfPztwM92MCQcCIBg4QiA8AlimVXJGt6gJPsPoj8kgH5VDIYBYMxnoOMgwAcGAAAAAAAAAAAAAAAAAAAAdoUUgwE/d=1/im=1/dg=0/br=1/wt=1/rs=AHGWq9BB4yk4WkAmjn6k_uMtpweSH924vg/cb=loaded_0/m=b:2384:143
+_.L9b.prototype.wa/this.ha<@https://mail.google.com/_/scs/mail-static/_/js/k=gmail.main.ru.XRhrm5Wp9YI.es5.O/am=AJfE_yX8EQADfPztwM92MCQcCIBg4QiA8AlimVXJGt6gJPsPoj8kgH5VDIYBYMxnoOMgwAcGAAAAAAAAAAAAAAAAAAAAdoUUgwE/d=1/im=1/dg=0/br=1/wt=1/rs=AHGWq9BB4yk4WkAmjn6k_uMtpweSH924vg/cb=loaded_0/m=b:2381:187
+w9b.prototype.handleEvent@https://mail.google.com/_/scs/mail-static/_/js/k=gmail.main.ru.XRhrm5Wp9YI.es5.O/am=AJfE_yX8EQADfPztwM92MCQcCIBg4QiA8AlimVXJGt6gJPsPoj8kgH5VDIYBYMxnoOMgwAcGAAAAAAAAAAAAAAAAAAAAdoUUgwE/d=1/im=1/dg=0/br=1/wt=1/rs=AHGWq9BB4yk4WkAmjn6k_uMtpweSH924vg/cb=loaded_0/m=b:2373:86
+
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://mail.google.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: can't access property "getRecipesForHost", gRecipeManager is null
+JavaScript warning: https://www.google.com/js/bg/nuRxMH4-hdTChYjwlrjO-HW19HyWaJLvFJxS2qLs-7c.js line 1 > eval line 3349 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1647344126683	Marionette	INFO	Stopped listening on port 64987
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1647344192478	geckodriver	INFO	Listening on 127.0.0.1:65179
+1647344195566	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Firefox Developer Edition\\firefox.exe" "--marionette" "--remote-debugging-port" "65180" "-no-remote" "-profile" "C:\\Users\\3CDE~1\\AppData\\Local\\Temp\\rust_mozprofilegIul8h"
+1647344196339	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\3CDE~1\\AppData\\Local\\Temp\\rust_mozprofilegIul8h\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:65180/devtools/browser/f35f536b-8e9c-42a2-8df6-d833cd53aecd
+1647344199769	Marionette	INFO	Listening on port 65188
+1647344199846	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://accounts.google.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://accounts.google.com"
+JavaScript warning: https://accounts.google.com/ServiceLogin line 1 > eval line 3967 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://accounts.google.com"
+JavaScript warning: https://accounts.google.com/ServiceLogin line 1 > eval line 5951 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://accounts.google.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://accounts.google.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: can't access property "getRecipesForHost", gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://accounts.google.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: can't access property "getRecipesForHost", gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://myaccount.google.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: can't access property "getRecipesForHost", gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://mail.google.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: can't access property "getRecipesForHost", gRecipeManager is null
+JavaScript warning: https://www.google.com/js/bg/hbjI8xylHpjavQyfdphvo41Bfdkh_RgUM1b0sbpcRZI.js line 1 > eval line 7505 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1647345243952	Marionette	INFO	Stopped listening on port 65188
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+nette" "--remote-debugging-port" "57491" "-no-remote" "-profile" "C:\\Users\\3CDE~1\\AppData\\Local\\Temp\\rust_mozprofileU5EvCd"
+1647344615601	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\3CDE~1\\AppData\\Local\\Temp\\rust_mozprofileU5EvCd\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:57491/devtools/browser/f4786062-4f75-4415-9783-f5b2e54441e0
+1647344619768	Marionette	INFO	Listening on port 57501
+1647344620146	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://accounts.google.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://accounts.google.com"
+JavaScript warning: https://accounts.google.com/ServiceLogin line 1 > eval line 1754 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://accounts.google.com"
+JavaScript warning: https://accounts.google.com/ServiceLogin line 1 > eval line 837 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://accounts.google.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://accounts.google.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: can't access property "getRecipesForHost", gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://accounts.google.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: can't access property "getRecipesForHost", gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://myaccount.google.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: can't access property "getRecipesForHost", gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://mail.google.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: can't access property "getRecipesForHost", gRecipeManager is null
+JavaScript warning: https://www.google.com/js/bg/hbjI8xylHpjavQyfdphvo41Bfdkh_RgUM1b0sbpcRZI.js line 1 > eval line 3572 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1647345243885	Marionette	INFO	Stopped listening on port 57501
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Msg_DestroyBrowsingContextGroup) Closed channel: cannot send/recv
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PHttpChannel::Msg_DeleteSelf) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PHttpChannel::Msg_DeleteSelf) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PHttpChannel::Msg_DeleteSelf) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PHttpChannel::Msg_DeleteSelf) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PContent::Reply_DiscardBrowsingContext) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PContent::Reply_DiscardBrowsingContext) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PContent::Reply_DiscardBrowsingContext) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PContent::Reply_DiscardBrowsingContext) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PContent::Reply_DiscardBrowsingContext) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PContent::Reply_DiscardBrowsingContext) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PContent::Reply_DiscardBrowsingContext) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PContent::Reply_DiscardBrowsingContext) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PContent::Reply_DiscardBrowsingContext) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PContent::Reply_DiscardBrowsingContext) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PContent::Reply_DiscardBrowsingContext) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PContent::Reply_DiscardBrowsingContext) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PContent::Reply_DiscardBrowsingContext) Channel closing: too late to send/recv, messages will be lost
+
+e use RENDERER.
+1647345243824	Marionette	INFO	Stopped listening on port 57670
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PContent::Msg_DestroyBrowsingContextGroup) Channel closing: too late to send/recv, messages will be lost
+
+ette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\3CDE~1\\AppData\\Local\\Temp\\rust_mozprofileURl1TZ\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:60604/devtools/browser/1014e2a7-6463-4b73-a978-40a95484e0bd
+1647344703113	Marionette	INFO	Listening on port 60613
+1647344703370	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://accounts.google.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://accounts.google.com"
+JavaScript warning: https://accounts.google.com/ServiceLogin line 1 > eval line 7112 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://accounts.google.com"
+JavaScript warning: https://accounts.google.com/ServiceLogin line 1 > eval line 1639 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://accounts.google.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://accounts.google.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: can't access property "getRecipesForHost", gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://accounts.google.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: can't access property "getRecipesForHost", gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://myaccount.google.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: can't access property "getRecipesForHost", gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://mail.google.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: can't access property "getRecipesForHost", gRecipeManager is null
+JavaScript warning: https://www.google.com/js/bg/hbjI8xylHpjavQyfdphvo41Bfdkh_RgUM1b0sbpcRZI.js line 1 > eval line 2236 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://mail.google.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: can't access property "getRecipesForHost", gRecipeManager is null
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+1647345244512	Marionette	INFO	Stopped listening on port 60613
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PContent::Reply_DiscardBrowsingContext) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PContent::Reply_DiscardBrowsingContext) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PContent::Reply_DiscardBrowsingContext) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Msg_DestroyBrowsingContextGroup) Closed channel: cannot send/recv
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PContent::Reply_DiscardBrowsingContext) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Parent][PGPUParent] Error: RunMessage(msgname=PGPU::Msg_ShutdownVR) Channel closing: too late to send/recv, messages will be lost
+
+[Parent 17824, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+ TypeError: can't access property "getRecipesForHost", gRecipeManager is null
+JavaScript warning: https://www.google.com/js/bg/nuRxMH4-hdTChYjwlrjO-HW19HyWaJLvFJxS2qLs-7c.js line 1 > eval line 3951 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1647345238301	Marionette	INFO	Stopped listening on port 53593
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+nette" "--remote-debugging-port" "56180" "-no-remote" "-profile" "C:\\Users\\3CDE~1\\AppData\\Local\\Temp\\rust_mozprofileC7u1Ua"
+1647345205689	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\3CDE~1\\AppData\\Local\\Temp\\rust_mozprofileC7u1Ua\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:56180/devtools/browser/5500a863-3ccc-4a3c-b740-20c1eace5162
+1647345209548	Marionette	INFO	Listening on port 56188
+1647345209765	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://accounts.google.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://accounts.google.com"
+1647345214769	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:235:19
+TimedPromise@chrome://remote/content/marionette/sync.js:220:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+JavaScript warning: https://accounts.google.com/ServiceLogin line 1 > eval line 7731 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://accounts.google.com"
+JavaScript warning: https://accounts.google.com/ServiceLogin line 1 > eval line 2785 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1647345233559	Marionette	INFO	Stopped listening on port 56188
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1647345251527	geckodriver	INFO	Listening on 127.0.0.1:53929
+1647345254598	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Firefox Developer Edition\\firefox.exe" "--marionette" "--remote-debugging-port" "53930" "-no-remote" "-profile" "C:\\Users\\3CDE~1\\AppData\\Local\\Temp\\rust_mozprofilexa2fcB"
+1647345255583	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\3CDE~1\\AppData\\Local\\Temp\\rust_mozprofilexa2fcB\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:53930/devtools/browser/d9af7092-076a-4898-94ab-7618fe017ccc
+1647345258709	Marionette	INFO	Listening on port 53939
+1647345258910	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://accounts.google.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://accounts.google.com"
+JavaScript warning: https://accounts.google.com/ServiceLogin line 1 > eval line 710 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://accounts.google.com"
+JavaScript warning: https://accounts.google.com/ServiceLogin line 1 > eval line 2179 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://accounts.google.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://accounts.google.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: can't access property "getRecipesForHost", gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://accounts.google.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: can't access property "getRecipesForHost", gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://myaccount.google.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: can't access property "getRecipesForHost", gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://mail.google.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: can't access property "getRecipesForHost", gRecipeManager is null
+JavaScript warning: https://www.google.com/js/bg/nuRxMH4-hdTChYjwlrjO-HW19HyWaJLvFJxS2qLs-7c.js line 1 > eval line 3711 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line1647345358736	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\3CDE~1\\AppData\\Local\\Temp\\rust_mozprofile7srjOK\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:50144/devtools/browser/7a552305-9d1f-400c-b994-639b707778a6
+1647345361924	Marionette	INFO	Listening on port 50152
+1647345361981	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://accounts.google.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://accounts.google.com"
+JavaScript warning: https://accounts.google.com/ServiceLogin line 1 > eval line 6228 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://accounts.google.com"
+JavaScript warning: https://accounts.google.com/ServiceLogin line 1 > eval line 5655 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://accounts.google.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://accounts.google.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: can't access property "getRecipesForHost", gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://accounts.google.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: can't access property "getRecipesForHost", gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://myaccount.google.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: can't access property "getRecipesForHost", gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://mail.google.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: can't access property "getRecipesForHost", gRecipeManager is null
+JavaScript warning: https://www.google.com/js/bg/nuRxMH4-hdTChYjwlrjO-HW19HyWaJLvFJxS2qLs-7c.js line 1 > eval line 908 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1647345409864	Marionette	INFO	Stopped listening on port 50152
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+:Reply_DiscardBrowsingContext) Channel closing: too late to send/recv, messages will be lost
+
+1647345407308	geckodriver	INFO	Listening on 127.0.0.1:50312
+1647345410404	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Firefox Developer Edition\\firefox.exe" "--marionette" "--remote-debugging-port" "50313" "-no-remote" "-profile" "C:\\Users\\3CDE~1\\AppData\\Local\\Temp\\rust_mozprofileQ3EP2A"
+1647345411178	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\3CDE~1\\AppData\\Local\\Temp\\rust_mozprofileQ3EP2A\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:50313/devtools/browser/d77bbe3a-64c4-419f-8447-09c18ac21f13
+1647345414427	Marionette	INFO	Listening on port 50323
+1647345414740	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://accounts.google.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://accounts.google.com"
+JavaScript warning: https://accounts.google.com/ServiceLogin line 1 > eval line 2481 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://accounts.google.com"
+JavaScript warning: https://accounts.google.com/ServiceLogin line 1 > eval line 7490 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://accounts.google.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://accounts.google.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: can't access property "getRecipesForHost", gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://accounts.google.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: can't access property "getRecipesForHost", gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://myaccount.google.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: can't access property "getRecipesForHost", gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://mail.google.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: can't access property "getRecipesForHost", gRecipeManager is null
+JavaScript warning: https://www.google.com/js/bg/hbjI8xylHpjavQyfdphvo41Bfdkh_RgUM1b0sbpcRZI.js line 1 > eval line 2266 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://accounts.google.com"
+JavaScript warning: https://accounts.google.com/ServiceLogin line 1 > eval line 3020 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://accounts.google.com"
+JavaScript warning: https://accounts.google.com/ServiceLogin line 1 > eval line 7218 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://accounts.google.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://accounts.google.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: can't access property "getRecipesForHost", gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://accounts.google.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: can't access property "getRecipesForHost", gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://myaccount.google.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: can't access property "getRecipesForHost", gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://mail.google.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: can't access property "getRecipesForHost", gRecipeManager is null
+JavaScript warning: https://www.google.com/js/bg/hbjI8xylHpjavQyfdphvo41Bfdkh_RgUM1b0sbpcRZI.js line 1 > eval line 584 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+1647345949852	Marionette	INFO	Stopped listening on port 52581
+ynchronous message for:" "https://accounts.google.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://accounts.google.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: can't access property "getRecipesForHost", gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://accounts.google.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: can't access property "getRecipesForHost", gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://myaccount.google.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: can't access property "getRecipesForHost", gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://mail.google.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: can't access property "getRecipesForHost", gRecipeManager is null
+JavaScript warning: https://www.google.com/js/bg/nuRxMH4-hdTChYjwlrjO-HW19HyWaJLvFJxS2qLs-7c.js line 1 > eval line 2615 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1647345947783	Marionette	INFO	Stopped listening on port 56293
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Msg_DestroyBrowsingContextGroup) Closed channel: cannot send/recv
+
+7345943911	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\3CDE~1\\AppData\\Local\\Temp\\rust_mozprofileoYgdR7\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:57421/devtools/browser/10bbdfaf-f904-49e2-82cf-31a09608822d
+1647345947999	Marionette	INFO	Listening on port 57428
+1647345948077	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://accounts.google.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://accounts.google.com"
+JavaScript warning: https://accounts.google.com/ServiceLogin line 1 > eval line 3906 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://accounts.google.com"
+JavaScript warning: https://accounts.google.com/ServiceLogin line 1 > eval line 3382 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://accounts.google.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://accounts.google.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: can't access property "getRecipesForHost", gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://accounts.google.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: can't access property "getRecipesForHost", gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://myaccount.google.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: can't access property "getRecipesForHost", gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://mail.google.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: can't access property "getRecipesForHost", gRecipeManager is null
+JavaScript warning: https://www.google.com/js/bg/nuRxMH4-hdTChYjwlrjO-HW19HyWaJLvFJxS2qLs-7c.js line 1 > eval line 5755 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: NotFoundconsole.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://accounts.google.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://accounts.google.com"
+JavaScript warning: https://accounts.google.com/ServiceLogin line 1 > eval line 2356 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://accounts.google.com"
+JavaScript warning: https://accounts.google.com/ServiceLogin line 1 > eval line 2297 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://accounts.google.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://accounts.google.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: can't access property "getRecipesForHost", gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://accounts.google.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: can't access property "getRecipesForHost", gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://myaccount.google.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: can't access property "getRecipesForHost", gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://mail.google.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: can't access property "getRecipesForHost", gRecipeManager is null
+JavaScript warning: https://www.google.com/js/bg/hbjI8xylHpjavQyfdphvo41Bfdkh_RgUM1b0sbpcRZI.js line 1 > eval line 3533 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1647346657657	Marionette	INFO	Stopped listening on port 63177
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Msg_DestroyBrowsingContextGroup) Closed channel: cannot send/recv
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PContent::Reply_DiscardBrowsingContext) Channel closing: too late to send/recv, messages will be lost
+
+le at C:\\Users\\3CDE~1\\AppData\\Local\\Temp\\rust_mozprofilecRlNvO\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:63337/devtools/browser/45bdca5d-e7d3-410d-88cd-cba161844971
+1647346124967	Marionette	INFO	Listening on port 63345
+1647346125256	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://accounts.google.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://accounts.google.com"
+JavaScript warning: https://accounts.google.com/ServiceLogin line 1 > eval line 112 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://accounts.google.com"
+JavaScript warning: https://accounts.google.com/ServiceLogin line 1 > eval line 7631 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://accounts.google.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://accounts.google.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: can't access property "getRecipesForHost", gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://accounts.google.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: can't access property "getRecipesForHost", gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://myaccount.google.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: can't access property "getRecipesForHost", gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://mail.google.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: can't access property "getRecipesForHost", gRecipeManager is null
+JavaScript warning: https://www.google.com/js/bg/nuRxMH4-hdTChYjwlrjO-HW19HyWaJLvFJxS2qLs-7c.js line 1 > eval line 6272 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1647346657739	Marionette	INFO	Stopped listening on port 63345
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Msg_DestroyBrowsingContextGroup) Closed channel: cannot send/recv
+
+te-debugging-port" "55601" "-no-remote" "-profile" "C:\\Users\\3CDE~1\\AppData\\Local\\Temp\\rust_mozprofile1XXfyH"
+1647346299351	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\3CDE~1\\AppData\\Local\\Temp\\rust_mozprofile1XXfyH\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:55601/devtools/browser/2a14841f-9350-471d-be25-3c064b4dcdef
+1647346302762	Marionette	INFO	Listening on port 55609
+1647346303013	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://accounts.google.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://accounts.google.com"
+JavaScript warning: https://accounts.google.com/ServiceLogin line 1 > eval line 1852 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://accounts.google.com"
+JavaScript warning: https://accounts.google.com/ServiceLogin line 1 > eval line 1563 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://accounts.google.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://accounts.google.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: can't access property "getRecipesForHost", gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://accounts.google.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: can't access property "getRecipesForHost", gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://myaccount.google.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: can't access property "getRecipesForHost", gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://mail.google.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: can't access property "getRecipesForHost", gRecipeManager is null
+JavaScript warning: https://www.google.com/js/bg/nuRxMH4-hdTChYjwlrjO-HW19HyWaJLvFJxS2qLs-7c.js line 1 > eval line 3266 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1647346657728	Marionette	INFO	Stopped listening on port 55609
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PContent::Reply_DiscardBrowsingContext) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PContent::Reply_DiscardBrowsingContext) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PContent::Reply_DiscardBrowsingContext) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PContent::Reply_DiscardBrowsingContext) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PContent::Reply_DiscardBrowsingContext) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PContent::Reply_DiscardBrowsingContext) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PHttpChannel::Msg_DeleteSelf) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PContent::Reply_DiscardBrowsingContext) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PContent::Reply_DiscardBrowsingContext) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PContent::Reply_DiscardBrowsingContext) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PContent::Reply_DiscardBrowsingContext) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PContent::Reply_DiscardBrowsingContext) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PContent::Reply_DiscardBrowsingContext) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PContent::Msg_DestroyBrowsingContextGroup) Channel closing: too late to send/recv, messages will be lost
+
+ox.exe" "--marionette" "--remote-debugging-port" "54581" "-no-remote" "-profile" "C:\\Users\\3CDE~1\\AppData\\Local\\Temp\\rust_mozprofileOcvojD"
+1647346475195	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\3CDE~1\\AppData\\Local\\Temp\\rust_mozprofileOcvojD\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:54581/devtools/browser/ba8b0f5c-25a5-4562-a4e1-6d26186b034e
+1647346478403	Marionette	INFO	Listening on port 54587
+1647346478643	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://accounts.google.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://accounts.google.com"
+JavaScript warning: https://accounts.google.com/ServiceLogin line 1 > eval line 2212 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://accounts.google.com"
+JavaScript warning: https://accounts.google.com/ServiceLogin line 1 > eval line 94 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://accounts.google.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://accounts.google.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: can't access property "getRecipesForHost", gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://accounts.google.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: can't access property "getRecipesForHost", gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://myaccount.google.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: can't access property "getRecipesForHost", gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://mail.google.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: can't access property "getRecipesForHost", gRecipeManager is null
+JavaScript warning: https://www.google.com/js/bg/hbjI8xylHpjavQyfdphvo41Bfdkh_RgUM1b0sbpcRZI.js line 1 > eval line 387 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+1647346657989	Marionette	INFO	Stopped listening on port 54587
+
+###!!! [Parent][PGPUParent] Error: RunMessage(msgname=PGPU::Msg_ShutdownVR) Channel closing: too late to send/recv, messages will be lost
+
+rviceLogin line 1 > eval line 7714 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://accounts.google.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://accounts.google.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: can't access property "getRecipesForHost", gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://accounts.google.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: can't access property "getRecipesForHost", gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://myaccount.google.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: can't access property "getRecipesForHost", gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://mail.google.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: can't access property "getRecipesForHost", gRecipeManager is null
+JavaScript warning: https://www.google.com/js/bg/nuRxMH4-hdTChYjwlrjO-HW19HyWaJLvFJxS2qLs-7c.js line 1 > eval line 705 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+1647346654421	Marionette	INFO	Stopped listening on port 50427
+1647346903230	geckodriver	INFO	Listening on 127.0.0.1:58099
+1647346906323	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Firefox Developer Edition\\firefox.exe" "--marionette" "--remote-debugging-port" "58100" "-no-remote" "-profile" "C:\\Users\\3CDE~1\\AppData\\Local\\Temp\\rust_mozprofileNTgj8B"
+1647346907292	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\3CDE~1\\AppData\\Local\\Temp\\rust_mozprofileNTgj8B\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:58100/devtools/browser/5537a733-5b3d-4921-a834-89d519b0392d
+1647346910462	Marionette	INFO	Listening on port 58105
+1647346910754	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://accounts.google.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://accounts.google.com"
+JavaScript warning: https://accounts.google.com/ServiceLogin line 1 > eval line 2476 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://accounts.google.com"
+JavaScript warning: https://accounts.google.com/ServiceLogin line 1 > eval line 4333 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1647347021438	Marionette	INFO	Stopped listening on port 58105
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1647347027968	geckodriver	INFO	Listening on 127.0.0.1:58223
+1647347031053	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Firefox Developer Edition\\firefox.exe" "--marionette" "--remote-debugging-port" "58224" "-no-remote" "-profile" "C:\\Users\\3CDE~1\\AppData\\Local\\Temp\\rust_mozprofileoR2VOi"
+1647347031957	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\3CDE~1\\AppData\\Local\\Temp\\rust_mozprofileoR2VOi\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:58224/devtools/browser/47b32e19-b1a0-4da9-b152-07d087a94079
+1647347035054	Marionette	INFO	Listening on port 58229
+1647347035400	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://accounts.google.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://accounts.google.com"
+JavaScript warning: https://accounts.google.com/ServiceLogin line 1 > eval line 813 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://accounts.google.com"
+JavaScript warning: https://accounts.google.com/ServiceLogin line 1 > eval line 3527 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://accounts.google.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://accounts.google.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: can't access property "getRecipesForHost", gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://accounts.google.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: can't access property "getRecipesForHost", gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://myaccount.google.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: can't access property "getRecipesForHost", gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://mail.google.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: can't access property "getRecipesForHost", gRecipeManager is null
+JavaScript warning: https://www.google.com/js/bg/hbjI8xylHpjavQyfdphvo41Bfdkh_RgUM1b0sbpcRZI.js line 1 > eval line 4938 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+1647347486110	Marionette	INFO	Stopped listening on port 58229
+
+###!!! [Child][PContentChild] Error: Send(msgname=PHttpChannel::Msg_DeletingChannel) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: Send(msgname=PHttpChannel::Msg_DeletingChannel) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: Send(msgname=PHttpChannel::Msg_Cancel) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: Send(msgname=PHttpChannel::Msg_DeletingChannel) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: Send(msgname=PContent::Msg_ScriptError) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PHttpChannel::Msg_DeleteSelf) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: Send(msgname=PContent::Msg_ScriptError) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Er
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Msg_DestroyBrowsingContextGroup) Closed channel: cannot send/recv
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PContent::Reply_DiscardBrowsingContext) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PContent::Reply_DiscardBrowsingContext) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PContent::Reply_DiscardBrowsingContext) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PContent::Reply_DiscardBrowsingContext) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PContent::Reply_DiscardBrowsingContext) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PContent::Reply_DiscardBrowsingContext) Channel closing: too late to send/recv, messages will be lost
+
+d][PContentChild] Error: RunMessage(msgname=PContent::Reply_DiscardBrowsingContext) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PContent::Reply_DiscardBrowsingContext) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PContent::Reply_DiscardBrowsingContext) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PContent::Reply_DiscardBrowsingContext) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PContent::Reply_DiscardBrowsingContext) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PContent::Reply_DiscardBrowsingContext) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PContent::Reply_DiscardBrowsingContext) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PContent::Reply_DiscardBrowsingContext) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PContent::Reply_DiscardBrowsingContext) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PContent::Reply_DiscardBrowsingContext) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PContent::Reply_DiscardBrowsingContext) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PContent::Msg_DestroyBrowsingContextGroup) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PContent::Reply_DiscardBrowsingContext) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PHttpChannel::Msg_DeleteSelf) Channel closing: too late to send/recv, messages will be lost
+
+s\\3CDE~1\\AppData\\Local\\Temp\\rust_mozprofilewUrrwX\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:49309/devtools/browser/c73961d4-ea05-4b6f-a12a-d65f5c74c24e
+1647347362937	Marionette	INFO	Listening on port 49315
+1647347363295	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://accounts.google.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://accounts.google.com"
+JavaScript warning: https://accounts.google.com/ServiceLogin line 1 > eval line 6691 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://accounts.google.com"
+JavaScript warning: https://accounts.google.com/ServiceLogin line 1 > eval line 641 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://accounts.google.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://accounts.google.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: can't access property "getRecipesForHost", gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://accounts.google.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: can't access property "getRecipesForHost", gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://myaccount.google.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: can't access property "getRecipesForHost", gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://mail.google.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: can't access property "getRecipesForHost", gRecipeManager is null
+JavaScript warning: https://www.google.com/js/bg/hbjI8xylHpjavQyfdphvo41Bfdkh_RgUM1b0sbpcRZI.js line 1 > eval line 3627 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+1647347489187	Marionette	INFO	Stopped listening on port 49315
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PHttpChannel::Msg_DeleteSelf) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PHttpChannel::Msg_DeleteSelf) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PHttpChannel::Msg_DeleteSelf) Channel closing: too late to send/recv, messages will be lost
+
+nRecipes: "getRecipes: falling back to a synchronous message for:" "https://accounts.google.com"
+JavaScript warning: https://accounts.google.com/ServiceLogin line 1 > eval line 1594 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://accounts.google.com"
+JavaScript warning: https://accounts.google.com/ServiceLogin line 1 > eval line 200 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://accounts.google.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://accounts.google.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: can't access property "getRecipesForHost", gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://accounts.google.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: can't access property "getRecipesForHost", gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://myaccount.google.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: can't access property "getRecipesForHost", gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://mail.google.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: can't access property "getRecipesForHost", gRecipeManager is null
+JavaScript warning: https://www.google.com/js/bg/nuRxMH4-hdTChYjwlrjO-HW19HyWaJLvFJxS2qLs-7c.js line 1 > eval line 6835 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1647347721564	geckodriver	INFO	Listening on 127.0.0.1:51788
+1647347724668	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Firefox Developer Edition\\firefox.exe" "--marionette" "--remote-debugging-port" "51790" "-no-remote" "-profile" "C:\\Users\\3CDE~1\\AppData\\Local\\Temp\\rust_mozprofileYFBlzg"
+1647347725384	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\3CDE~1\\AppData\\Local\\Temp\\rust_mozprofileYFBlzg\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:51790/devtools/browser/13a7ad85-7bf7-4bc1-8256-e8c1cb54f6d7
+1647347728502	Marionette	INFO	Listening on port 51797
+1647347728948	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://accounts.google.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://accounts.google.com"
+JavaScript warning: https://accounts.google.com/ServiceLogin line 1 > eval line 5238 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://accounts.google.com"
+JavaScript warning: https://accounts.google.com/ServiceLogin line 1 > eval line 1147 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://accounts.google.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://accounts.google.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: can't access property "getRecipesForHost", gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://accounts.google.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: can't access property "getRecipesForHost", gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://myaccount.google.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: can't access property "getRecipesForHost", gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://mail.google.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: can't access property "getRecipesForHost", gRecipeManager is null
+JavaScript warning: https://www.google.com/js/bg/hbjI8xylHpjavQyfdphvo41Bfdkh_RgUM1b0sbpcRZI.js line 1 > eval line 6865 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.error: (new TypeError("can't access property \"treeChildren\", parent is null", "resource://devtools/client/inspector/shared/style-change-tracker.js", 67))
+TypeError: can't access property "treeChildren", parent is null: canMutationImpactCurrentStyles@resource://devtools/client/inspector/shared/style-change-tracker.js:67:24
+onMutations@resource://devtools/client/inspector/shared/style-change-tracker.js:84:41
+_emit@resource://devtools/shared/event-emitter.js:242:32
+emit@resource://devtools/shared/event-emitter.js:186:18
+emit@resource://devtools/shared/event-emitter.js:330:18
+getMutations@resource://devtools/client/fronts/walker.js:312:10
+
+JavaScript error: resource://gre/modules/SelectionUtils.jsm, line 78: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIEditor.selection]
+console.error: (new TypeError("can't access property \"treeChildren\", parent is null", "resource://devtools/client/inspector/shared/style-change-tracker.js", 67))
+TypeError: can't access property "treeChildren", parent is null: canMutationImpactCurrentStyles@resource://devtools/client/inspector/shared/style-change-tracker.js:67:24
+onMutations@resource://devtools/client/inspector/shared/style-change-tracker.js:84:41
+_emit@resource://devtools/shared/event-emitter.js:242:32
+emit@resource://devtools/shared/event-emitter.js:186:18
+emit@resource://devtools/shared/event-emitter.js:330:18
+getMutations@resource://devtools/client/fronts/walker.js:312:10
+
+console.error: (new TypeError("can't access property \"getFront\", container.node.targetFront is null", "resource://devtools/client/inspector/markup/markup.js", 2320))
+console.error: "Error while calling actor 'pagestyle's method 'getLayout'" "can't access property \"rawNode\", node is null"
+console.error: (new TypeError("can't access property \"rawNode\", node is null", "resource://devtools/server/actors/page-style.js", 1001))
+console.error: (new Error("Protocol error (TypeError): can't access property \"rawNode\", node is null from: server0.conn0.windowGlobal2147483664/pagestyle25 (resource://devtools/server/actors/page-style.js:1001:5)", "resource://devtools/shared/protocol/Front.js", 365))
+console.error: (new TypeError("can't access property \"treeChildren\", parent is null", "resource://devtools/client/inspector/shared/style-change-tracker.js", 67))
+TypeError: can't access property "treeChildren", parent is null: canMutationImpactCurrentStyles@resource://devtools/client/inspector/shared/style-change-tracker.js:67:24
+onMutations@resource://devtools/client/inspector/shared/style-change-tracker.js:84:41
+_emit@resource://devtools/shared/event-emitter.js:242:32
+emit@resource://devtools/shared/event-emitter.js:186:18
+emit@resource://devtools/shared/event-emitter.js:330:18
+getMutations@resource://devtools/client/fronts/walker.js:312:10
+
+console.error: (new TypeError("can't access property \"on\", nodeFront.walkerFront is null", "resource://devtools/client/inspector/markup/markup.js", 956))
+TypeError: can't access property "on", nodeFront.walkerFront is null: _onNewSelection@resource://devtools/client/inspector/markup/markup.js:956:7
+_emit@resource://devtools/shared/event-emitter.js:242:32
+emit@resource://devtools/shared/event-emitter.js:186:18
+emit@resource://devtools/shared/event-emitter.js:330:18
+setNodeFront@resource://devtools/client/framework/selection.js:206:10
+onDetached@resource://devtools/client/inspector/inspector.js:1700:20
+_emit@resource://devtools/shared/event-emitter.js:242:32
+emit@resource://devtools/shared/event-emitter.js:186:18
+emit@resource://devtools/shared/event-emitter.js:330:18
+_onMutations@resource://devtools/client/framework/selection.js:104:12
+_emit@resource://devtools/shared/event-emitter.js:242:32
+emit@resource://devtools/shared/event-emitter.js:186:18
+emit@resource://devtools/shared/event-emitter.js:330:18
+getMutations@resource://devtools/client/fronts/walker.js:312:10
+
+console.error: (new Error("Can not send request 'getUniqueSelector' because front 'domnode' is already destroyed.", "resource://devtools/shared/protocol/Front/FrontClassWithSpec.js", 28))
+console.error: (new TypeError("can't access property \"treeChildren\", parent is null", "resource://devtools/client/inspector/shared/style-change-tracker.js", 67))
+TypeError: can't access property "treeChildren", parent is null: canMutationImpactCurrentStyles@resource://devtools/client/inspector/shared/style-change-tracker.js:67:24
+onMutations@resource://devtools/client/inspector/shared/style-change-tracker.js:84:41
+_emit@resource://devtools/shared/event-emitter.js:242:32
+emit@resource://devtools/shared/event-emitter.js:186:18
+emit@resource://devtools/shared/event-emitter.js:330:18
+getMutations@resource://devtools/client/fronts/walker.js:312:10
+
+console.error: (new TypeError("can't access property \"treeChildren\", parent is null", "resource://devtools/client/inspector/shared/style-change-tracker.js", 67))
+TypeError: can't access property "treeChildren", parent is null: canMutationImpactCurrentStyles@resource://devtools/client/inspector/shared/style-change-tracker.js:67:24
+onMutations@resource://devtools/client/inspector/shared/style-change-tracker.js:84:41
+_emit@resource://devtools/shared/event-emitter.js:242:32
+emit@resource://devtools/shared/event-emitter.js:186:18
+emit@resource://devtools/shared/event-emitter.js:330:18
+getMutations@resource://devtools/client/fronts/walker.js:312:10
+
+console.error: (new TypeError("can't access property \"treeChildren\", parent is null", "resource://devtools/client/inspector/shared/style-change-tracker.js", 67))
+TypeError: can't access property "treeChildren", parent is null: canMutationImpactCurrentStyles@resource://devtools/client/inspector/shared/style-change-tracker.js:67:24
+onMutations@resource://devtools/client/inspector/shared/style-change-tracker.js:84:41
+_emit@resource://devtools/shared/event-emitter.js:242:32
+emit@resource://devtools/shared/event-emitter.js:186:18
+emit@resource://devtools/shared/event-emitter.js:330:18
+getMutations@resource://devtools/client/fronts/walker.js:312:10
+
+console.error: (new TypeError("can't access property \"treeChildren\", parent is null", "resource://devtools/client/inspector/shared/style-change-tracker.js", 67))
+TypeError: can't access property "treeChildren", parent is null: canMutationImpactCurrentStyles@resource://devtools/client/inspector/shared/style-change-tracker.js:67:24
+onMutations@resource://devtools/client/inspector/shared/style-change-tracker.js:84:41
+_emit@resource://devtools/shared/event-emitter.js:242:32
+emit@resource://devtools/shared/event-emitter.js:186:18
+emit@resource://devtools/shared/event-emitter.js:330:18
+getMutations@resource://devtools/client/fronts/walker.js:312:10
+
+console.error: (new TypeError("can't access property \"treeC1647348158705	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Firefox Developer Edition\\firefox.exe" "--marionette" "--remote-debugging-port" "59295" "-no-remote" "-profile" "C:\\Users\\3CDE~1\\AppData\\Local\\Temp\\rust_mozprofileiih10c"
+1647348159707	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\3CDE~1\\AppData\\Local\\Temp\\rust_mozprofileiih10c\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:59295/devtools/browser/21bbedbe-0ea8-46cf-99b9-0b65a75e306e
+1647348163054	Marionette	INFO	Listening on port 59301
+1647348163095	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://accounts.google.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://accounts.google.com"
+JavaScript warning: https://accounts.google.com/ServiceLogin line 1 > eval line 2252 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://accounts.google.com"
+JavaScript warning: https://accounts.google.com/ServiceLogin line 1 > eval line 572 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://accounts.google.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://accounts.google.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: can't access property "getRecipesForHost", gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://accounts.google.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: can't access property "getRecipesForHost", gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://myaccount.google.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: can't access property "getRecipesForHost", gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://mail.google.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: can't access property "getRecipesForHost", gRecipeManager is null
+JavaScript warning: https://www.google.com/js/bg/nuRxMH4-hdTChYjwlrjO-HW19HyWaJLvFJxS2qLs-7c.js line 1 > eval line 874 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1647348286862	geckodriver	INFO	Listening on 127.0.0.1:59531
+1647348289936	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Firefox Developer Edition\\firefox.exe" "--marionette" "--remote-debugging-port" "59532" "-no-remote" "-profile" "C:\\Users\\3CDE~1\\AppData\\Local\\Temp\\rust_mozprofilexElp2O"
+1647348290724	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\3CDE~1\\AppData\\Local\\Temp\\rust_mozprofilexElp2O\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:59532/devtools/browser/ebada694-07e7-4ece-8243-3f04132b4d93
+1647348294221	Marionette	INFO	Listening on port 59540
+1647348294277	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://accounts.google.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://accounts.google.com"
+JavaScript warning: https://accounts.google.com/ServiceLogin line 1 > eval line 269 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://accounts.google.com"
+JavaScript warning: https://accounts.google.com/ServiceLogin line 1 > eval line 4275 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://accounts.google.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://accounts.google.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: can't access property "getRecipesForHost", gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://accounts.google.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: can't access property "getRecipesForHost", gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://myaccount.google.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: can't access property "getRecipesForHost", gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://mail.google.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: can't access property "getRecipesForHost", gRecipeManager is null
+JavaScript warning: https://www.google.com/js/bg/nuRxMH4-hdTChYjwlrjO-HW19HyWaJLvFJxS2qLs-7c.js line 1 > eval line 4562 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1647348396430	geckodriver	INFO	Listening on 127.0.0.1:57822
+1647348399502	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Firefox Developer Edition\\firefox.exe" "--marionette" "--remote-debugging-port" "57823" "-no-remote" "-profile" "C:\\Users\\3CDE~1\\AppData\\Local\\Temp\\rust_mozprofile06S0wo"
+1647348400326	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\3CDE~1\\AppData\\Local\\Temp\\rust_mozprofile06S0wo\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:57823/devtools/browser/893b7f9f-af9c-45e6-8453-126f5e766112
+1647348403447	Marionette	INFO	Listening on port 57833
+1647348403824	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://accounts.google.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://accounts.google.com"
+JavaScript warning: https://accounts.google.com/ServiceLogin line 1 > eval line 6773 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://accounts.google.com"
+JavaScript warning: https://accounts.google.com/ServiceLogin line 1 > eval line 6250 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://accounts.google.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://accounts.google.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: can't access property "getRecipesForHost", gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://accounts.google.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: can't access property "getRecipesForHost", gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://myaccount.google.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: can't access property "getRecipesForHost", gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://mail.google.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: can't access property "getRecipesForHost", gRecipeManager is null
+JavaScript warning: https://www.google.com/js/bg/hbjI8xylHpjavQyfdphvo41Bfdkh_RgUM1b0sbpcRZI.js line 1 > eval line 6985 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1647348485512	geckodriver	INFO	Listening on 127.0.0.1:58018
+1647348488587	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Firefox Developer Edition\\firefox.exe" "--marionette" "--remote-debugging-port" "58019" "-no-remote" "-profile" "C:\\Users\\3CDE~1\\AppData\\Local\\Temp\\rust_mozprofileOBJ7Em"
+1647348489548	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\3CDE~1\\AppData\\Local\\Temp\\rust_mozprofileOBJ7Em\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:58019/devtools/browser/d848560f-74ed-4d7a-b31d-95d2c5503973
+1647348493176	Marionette	INFO	Listening on port 58027
+1647348493543	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://accounts.google.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://accounts.google.com"
+JavaScript warning: https://accounts.google.com/ServiceLogin line 1 > eval line 5551 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://accounts.google.com"
+JavaScript warning: https://accounts.google.com/ServiceLogin line 1 > eval line 7638 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://accounts.google.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://accounts.google.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: can't access property "getRecipesForHost", gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://accounts.google.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: can't access property "getRecipesForHost", gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://myaccount.google.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: can't access property "getRecipesForHost", gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://mail.google.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: can't access property "getRecipesForHost", gRecipeManager is null
+JavaScript warning: https://www.google.com/js/bg/hbjI8xylHpjavQyfdphvo41Bfdkh_RgUM1b0sbpcRZI.js line 1 > eval line 1883 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://mc.yandex.ru/metrika/watch_serp.js, line 12: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+1647348578450	Marionette	INFO	Stopped listening on port 58027
+
+###!!! [Parent][PGPUParent] Error: RunMessage(msgname=PGPU::Msg_ShutdownVR) Channel closing: too late to send/recv, messages will be lost
+
