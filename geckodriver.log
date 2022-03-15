@@ -363,15 +363,199 @@ JavaScript warning: https://accounts.google.com/ServiceLogin line 1 > eval line 
 console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://accounts.google.com"
 console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://accounts.google.com"
 JavaScript error: resource:///modules/UrlbarInput.jsm, line 2994: TypeError: event.target.closest is not a function
-1647326398335	geckodriver	INFO	Listening on 127.0.0.1:52474
-1647326401407	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "52475" "-no-remote" "-profile" "C:\\Users\\3CDE~1\\AppData\\Local\\Temp\\rust_mozprofilerAUsyr"
-1647326401990	Marionette	INFO	Marionette enabled
-console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\\u042F\u0440\u043E\u0441\u043B\u0430\u0432\\AppData\\Local\\Temp\\rust_mozprofilerAUsyr\\search.json.mozlz4", (void 0)))
-DevTools listening on ws://localhost:52475/devtools/browser/6004a6cb-151b-4dd5-a905-804636ca392c
-1647326404646	Marionette	INFO	Listening on port 52480
-1647326404685	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://accounts.google.com"
+console.error: (new TypeError("parent is null", "resource://devtools/client/inspector/shared/style-change-tracker.js", 67))
+TypeError: parent is null: canMutationImpactCurrentStyles@resource://devtools/client/inspector/shared/style-change-tracker.js:67:24
+onMutations@resource://devtools/client/inspector/shared/style-change-tracker.js:84:41
+_emit@resource://devtools/shared/event-emitter.js:244:34
+emit@resource://devtools/shared/event-emitter.js:190:18
+emit@resource://devtools/shared/event-emitter.js:342:18
+getMutations@resource://devtools/client/fronts/walker.js:312:10
+
+console.error: (new TypeError("parent is null", "resource://devtools/client/inspector/shared/style-change-tracker.js", 67))
+TypeError: parent is null: canMutationImpactCurrentStyles@resource://devtools/client/inspector/shared/style-change-tracker.js:67:24
+onMutations@resource://devtools/client/inspector/shared/style-change-tracker.js:84:41
+_emit@resource://devtools/shared/event-emitter.js:244:34
+emit@resource://devtools/shared/event-emitter.js:190:18
+emit@resource://devtools/shared/event-emitter.js:342:18
+getMutations@resource://devtools/client/fronts/walker.js:312:10
+
 console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://accounts.google.com"
 console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://accounts.google.com"
-JavaScript warning: https://accounts.google.com/ServiceLogin line 1 > eval line 1333 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://accounts.google.com/ServiceLogin?flowName=GlifWebSignIn&flowEntry=ServiceLogin line 1 > eval line 7316 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.error: "Panel inspector:" (new TypeError("event is undefined", "resource://devtooconsole.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://accounts.google.com"
+console.error: (new TypeError("parent is null", "resource://devtools/client/inspector/shared/style-change-tracker.js", 67))
+TypeError: parent is null: canMutationImpactCurrentStyles@resource://devtools/client/inspector/shared/style-change-tracker.js:67:24
+onMutations@resource://devtools/client/inspector/shared/style-change-tracker.js:84:41
+_emit@resource://devtools/shared/event-emitter.js:244:34
+emit@resource://devtools/shared/event-emitter.js:190:18
+emit@resource://devtools/shared/event-emitter.js:342:18
+getMutations@resource://devtools/client/fronts/walker.js:312:10
+
+console.error: (new TypeError("nodeFront.walkerFront is null", "resource://devtools/client/inspector/markup/markup.js", 956))
+TypeError: nodeFront.walkerFront is null: _onNewSelection@resource://devtools/client/inspector/markup/markup.js:956:7
+_emit@resource://devtools/shared/event-emitter.js:244:34
+emit@resource://devtools/shared/event-emitter.js:190:18
+emit@resource://devtools/shared/event-emitter.js:342:18
+setNodeFront@resource://devtools/client/framework/selection.js:206:10
+onDetached@resource://devtools/client/inspector/inspector.js:1676:20
+_emit@resource://devtools/shared/event-emitter.js:244:34
+emit@resource://devtools/shared/event-emitter.js:190:18
+emit@resource://devtools/shared/event-emitter.js:342:18
+_onMutations@resource://devtools/client/framework/selection.js:104:12
+_emit@resource://devtools/shared/event-emitter.js:244:34
+emit@resource://devtools/shared/event-emitter.js:190:18
+emit@resource://devtools/shared/event-emitter.js:342:18
+getMutations@resource://devtools/client/fronts/walker.js:312:10
+
+console.error: (new Error("Can not send request 'getUniqueSelector' because front 'domnode' is already destroyed.", "resource://devtools/shared/protocol/Front/FrontClassWithSpec.js", 28))
+console.error: (new TypeError("container.node.targetFront is null", "resource://devtools/client/inspector/markup/markup.js", 2320))
+console.error: (new TypeError("parent is null", "resource://devtools/client/inspector/shared/style-change-tracker.js", 67))
+TypeError: parent is null: canMutationImpactCurrentStyles@resource://devtools/client/inspector/shared/style-change-tracker.js:67:24
+onMutations@resource://devtools/client/inspector/shared/style-change-tracker.js:84:41
+_emit@resource://devtools/shared/event-emitter.js:244:34
+emit@resource://devtools/shared/event-emitter.js:190:18
+emit@resource://devtools/shared/event-emitter.js:342:18
+getMutations@resource://devtools/client/fronts/walker.js:312:10
+
+console.error: (new TypeError("parent is null", "resource://devtools/client/inspector/shared/style-change-tracker.js", 67))
+TypeError: parent is null: canMutationImpactCurrentStyles@resource://devtools/client/inspector/shared/style-change-tracker.js:67:24
+onMutations@resource://devtools/client/inspector/shared/style-change-tracker.js:84:41
+_emit@resource://devtools/shared/event-emitter.js:244:34
+emit@resource://devtools/shared/event-emitter.js:190:18
+emit@resource://devtools/shared/event-emitter.js:342:18
+getMutations@resource://devtools/client/fronts/walker.js:312:10
+
+console.error: (new TypeError("parent is null", "resource://devtools/client/inspector/shared/style-change-tracker.js", 67))
+TypeError: parent is null: canMutationImpactCurrentStyles@resource://devtools/client/inspector/shared/style-change-tracker.js:67:24
+onMutations@resource://devtools/client/inspector/shared/style-change-tracker.js:84:41
+_emit@resource://devtools/shared/event-emitter.js:244:34
+emit@resource://devtools/shared/event-emitter.js:190:18
+emit@resource://devtools/shared/event-emitter.js:342:18
+getMutations@resource://devtools/client/fronts/walker.js:312:10
+
+console.error: (new TypeError("parent is null", "resource://devtools/client/inspector/shared/style-change-tracker.js", 67))
+TypeError: parent is null: canMutationImpactCurrentStyles@resource://devtools/client/inspector/shared/style-change-tracker.js:67:24
+onMutations@resource://devtools/client/inspector/shared/style-change-tracker.js:84:41
+_emit@resource://devtools/shared/event-emitter.js:244:34
+emit@resource://devtools/shared/event-emitter.js:190:18
+emit@resource://devtools/shared/event-emitter.js:342:18
+getMutations@resource://devtools/client/fronts/walker.js:312:10
+
+console.error: (new TypeError("parent is null", "resource://devtools/client/inspector/shared/style-change-tracker.js", 67))
+TypeError: parent is null: canMutationImpactCurrentStyles@resource://devtools/client/inspector/shared/style-change-tracker.js:67:24
+onMutations@resource://devtools/client/inspector/shared/style-change-tracker.js:84:41
+_emit@resource://devtools/shared/event-emitter.js:244:34
+emit@resource://devtools/shared/event-emitter.js:190:18
+emit@resource://devtools/shared/event-emitter.js:342:18
+getMutations@resource://devtools/client/fronts/walker.js:312:10
+
+console.error: (new TypeError("parent is null", "resource://devtools/client/inspector/shared/style-change-tracker.js", 67))
+TypeError: parent is null: canMutationImpactCurrentStyles@resource://devtools/client/inspector/shared/style-change-tracker.js:67:24
+onMutations@resource://devtools/client/inspector/shared/style-change-tracker.js:84:41
+_emit@resource://devtools/shared/event-emitter.js:244:34
+emit@resource://devtools/shared/event-emitter.js:190:18
+emit@resource://devtools/shared/event-emitter.js:342:18
+getMutations@resource://devtools/client/fronts/walker.js:312:10
+
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+1647330217923	Marionette	INFO	Stopped listening on port 52480
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+his session
 console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://accounts.google.com"
-JavaScript warning: https://accounts.google.com/ServiceLogin line 1 > eval line 3171 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://accounts.google.com"
+JavaScript warning: https://accounts.google.com/ServiceLogin line 1 > eval line 3085 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://accounts.google.com"
+JavaScript warning: https://accounts.google.com/ServiceLogin line 1 > eval line 3212 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://accounts.google.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://accounts.google.com"
+console.error: (new TypeError("parent is null", "resource://devtools/client/inspector/shared/style-change-tracker.js", 67))
+TypeError: parent is null: canMutationImpactCurrentStyles@resource://devtools/client/inspector/shared/style-change-tracker.js:67:24
+onMutations@resource://devtools/client/inspector/shared/style-change-tracker.js:84:41
+_emit@resource://devtools/shared/event-emitter.js:244:34
+emit@resource://devtools/shared/event-emitter.js:190:18
+emit@resource://devtools/shared/event-emitter.js:342:18
+getMutations@resource://devtools/client/fronts/walker.js:312:10
+
+console.error: (new TypeError("parent is null", "resource://devtools/client/inspector/shared/style-change-tracker.js", 67))
+TypeError: parent is null: canMutationImpactCurrentStyles@resource://devtools/client/inspector/shared/style-change-tracker.js:67:24
+onMutations@resource://devtools/client/inspector/shared/style-change-tracker.js:84:41
+_emit@resource://devtools/shared/event-emitter.js:244:34
+emit@resource://devtools/shared/event-emitter.js:190:18
+emit@resource://devtools/shared/event-emitter.js:342:18
+getMutations@resource://devtools/client/fronts/walker.js:312:10
+
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+1647330366833	Marionette	INFO	Stopped listening on port 64721
+console.warn: TopSitesFeed: Failed to f1647330369744	Marionette	INFO	Stopped listening on port 64462
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+remote-debugging-port" "62133" "-no-remote" "-profile" "C:\\Users\\3CDE~1\\AppData\\Local\\Temp\\rust_mozprofilecfd1YH"
+1647330226559	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\\u042F\u0440\u043E\u0441\u043B\u0430\u0432\\AppData\\Local\\Temp\\rust_mozprofilecfd1YH\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:62133/devtools/browser/1c646d48-46d8-450d-aed3-d3c26aa48f25
+1647330229291	Marionette	INFO	Listening on port 62140
+1647330229742	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://accounts.google.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://accounts.google.com"
+JavaScript warning: https://accounts.google.com/ServiceLogin line 1 > eval line 7362 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://accounts.google.com"
+JavaScript warning: https://accounts.google.com/ServiceLogin line 1 > eval line 184 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://accounts.google.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://accounts.google.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://accounts.google.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://myaccount.google.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://myaccount.google.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://myaccount.google.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://myaccount.google.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+JavaScript warning: https://accounts.google.com/ServiceLogin?elo=1 line 1 > eval line 6651 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://accounts.google.com/ServiceLogin?elo=1 line 1 > eval line 4073 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://accounts.google.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+1647330362701	Marionette	INFO	Stopped listening on port 62140
+
+###!!! [Parent][PGPUParent] Error: RunMessage(msgname=PGPU::Msg_ShutdownVR) Channel closing: too late to send/recv, messages will be lost
+
+1647330496524	geckodriver	INFO	Listening on 127.0.0.1:53799
+1647330499606	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "53800" "-no-remote" "-profile" "C:\\Users\\3CDE~1\\AppData\\Local\\Temp\\rust_mozprofileuQRwsH"
+1647330500145	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\\u042F\u0440\u043E\u0441\u043B\u0430\u0432\\AppData\\Local\\Temp\\rust_mozprofileuQRwsH\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:53800/devtools/browser/7b243b92-9154-479a-9276-e3fc34d3baa4
+1647330502665	Marionette	INFO	Listening on port 53808
+1647330502867	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://accounts.google.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://accounts.google.com"
+JavaScript warning: https://accounts.google.com/ServiceLogin line 1 > eval line 2019 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://accounts.google.com"
+JavaScript warning: https://accounts.google.com/ServiceLogin line 1 > eval line 5996 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1647330780278	geckodriver	INFO	Listening on 127.0.0.1:63444
+1647330783380	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "63445" "-no-remote" "-profile" "C:\\Users\\3CDE~1\\AppData\\Local\\Temp\\rust_mozprofile8H45aF"
+1647330783884	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\\u042F\u0440\u043E\u0441\u043B\u0430\u0432\\AppData\\Local\\Temp\\rust_mozprofile8H45aF\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:63445/devtools/browser/eb044ad8-ab9a-4134-b999-4d2c20e4b48e
+1647330786798	Marionette	INFO	Listening on port 63451
+1647330787157	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://accounts.google.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://accounts.google.com"
+JavaScript warning: https://accounts.google.com/ServiceLogin line 1 > eval line 5349 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://accounts.google.com"
+JavaScript warning: https://accounts.google.com/ServiceLogin line 1 > eval line 1189 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://accounts.google.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://accounts.google.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://accounts.google.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://myaccount.google.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
