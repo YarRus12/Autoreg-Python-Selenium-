@@ -1,7 +1,7 @@
 import os
-import mail_auto
+import mail_auto_mailru
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
-(os.listdir(BASE_DIR+'/Data'))
+#(os.listdir(BASE_DIR+'/Data'))
 
 emails_list = []
 with open(BASE_DIR+'/Data/Emails_list', 'r', encoding='utf-8') as emails:
