@@ -6,7 +6,7 @@ import time
 class Automail:
     """Class Automail inits driver and functions login and mail """
     def __init__(self):
-        self.driver = webdriver.Firefox('geckodriver.exe')
+        self.driver = webdriver.Firefox()
 
     def registry(self, name, surname, birthdate, s):
         """Зарегистрировать новую электронную почту в любом почтовом сервисе"""
