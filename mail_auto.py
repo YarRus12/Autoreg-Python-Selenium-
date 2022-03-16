@@ -1,5 +1,5 @@
 from selenium import webdriver
-from selenium.webdriver.common.by import By
+#from selenium.webdriver.common.by import By
 import time
 #from selenium.webdriver.common.keys import Keys
 
@@ -54,7 +54,7 @@ class Automail:
         self.driver.find_element(By.XPATH, "/html/body/div[1]/div[1]/div[2]/div[1]/div[2]/div/div/div[2]/div/div[2]/div/div[1]/div/div/button/div[3]").click()
         time.sleep(3)  # We use time sleep to give the page enoght time to load
 
-    def login(self, email, password):
+    def log_in(self, email, password):
         """ Login function sigh in googlemail with email and password as arguments"""
         self.driver.get('https://accounts.google.com/signin/v2/identifier')
         self.driver.find_element(By.ID, "identifierId").send_keys(email)
@@ -63,7 +63,7 @@ class Automail:
         self.driver.find_element(By.NAME, "password").send_keys(password)
         self.driver.find_element(By.ID, "passwordNext").click()
 
-    def send_mail(self, email, theame, context):
+    def send_mail(self, email, topic, message):
         """Mail functions receives email, theames and context for sending """
         self.driver.get('https://mail.google.com')
         time.sleep(3) #We use time sleep to give the page enoght time to load

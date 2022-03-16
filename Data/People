@@ -1,4 +1,0 @@
-people = [
-{'name':'Андрей', 'surname':'Макаров', 'patronomic':'Геннадьевич', 'birthdate': '12.12.1976', 'sex':'М'},
-{'name':'Анна', 'surname':'Павловна', 'patronomic':'Орлова', 'birthdate': '22.11.2000', 'sex':'Ж'}
-]
