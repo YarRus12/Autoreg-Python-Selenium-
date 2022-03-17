@@ -3814,8 +3814,9 @@ JavaScript warning: https://mc.yandex.ru/metrika/watch.js, line 12: WEBGL_debug_
 console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://passport.yandex.ru"
 console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://passport.yandex.ru"
 JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: can't access property "getRecipesForHost", gRecipeManager is null
-1647503236102	geckodriver	INFO	Listening on 127.0.0.1:63165
-1647503239170	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Firefox Developer Edition\\firefox.exe" "--marionette" "--remote-debugging-port" "63166" "-no-remote" "-profile" "C:\\Users\\3CDE~1\\AppData\\Local\\Temp\\rust_mozprofileW5WDDt"
+1647503930270	Marionette	INFO	Stopped listening on port 62033
+[Parent 25188, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+e" "--remote-debugging-port" "63166" "-no-remote" "-profile" "C:\\Users\\3CDE~1\\AppData\\Local\\Temp\\rust_mozprofileW5WDDt"
 1647503240189	Marionette	INFO	Marionette enabled
 console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\3CDE~1\\AppData\\Local\\Temp\\rust_mozprofileW5WDDt\\search.json.mozlz4", (void 0)))
 DevTools listening on ws://localhost:63166/devtools/browser/b36130dd-abf8-404e-8f65-9e3ff674caba
@@ -3842,8 +3843,9 @@ console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message f
 JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: can't access property "getRecipesForHost", gRecipeManager is null
 console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://mail.yandex.ru"
 JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: can't access property "getRecipesForHost", gRecipeManager is null
-1647503349968	geckodriver	INFO	Listening on 127.0.0.1:63304
-1647503353033	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Firefox Developer Edition\\firefox.exe" "--marionette" "--remote-debugging-port" "63305" "-no-remote" "-profile" "C:\\Users\\3CDE~1\\AppData\\Local\\Temp\\rust_mozprofileEqsK9C"
+1647503927567	Marionette	INFO	Stopped listening on port 63172
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+nette" "--remote-debugging-port" "63305" "-no-remote" "-profile" "C:\\Users\\3CDE~1\\AppData\\Local\\Temp\\rust_mozprofileEqsK9C"
 1647503353953	Marionette	INFO	Marionette enabled
 console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\3CDE~1\\AppData\\Local\\Temp\\rust_mozprofileEqsK9C\\search.json.mozlz4", (void 0)))
 DevTools listening on ws://localhost:63305/devtools/browser/d0412d39-d0ab-48db-a4c9-4fa185589619
@@ -3853,9 +3855,12 @@ JavaScript warning: https://mc.yandex.ru/metrika/watch.js, line 12: WEBGL_debug_
 console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://passport.yandex.ru"
 console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://passport.yandex.ru"
 JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: can't access property "getRecipesForHost", gRecipeManager is null
-1647503391990	geckodriver	INFO	Listening on 127.0.0.1:63407
-1647503395017	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Firefox Developer Edition\\firefox.exe" "--marionette" "--remote-debugging-port" "63408" "-no-remote" "-profile" "C:\\Users\\3CDE~1\\AppData\\Local\\Temp\\rust_mozprofile6lTei4"
-1647503396262	Marionette	INFO	Marionette enabled
+1647503930265	Marionette	INFO	Stopped listening on port 63312
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PWebSocket::Msg___delete__) Channel closing: too late to send/recv, messages will be lost
+
+[Parent 27000, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+INFO	Marionette enabled
 console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\3CDE~1\\AppData\\Local\\Temp\\rust_mozprofile6lTei4\\search.json.mozlz4", (void 0)))
 DevTools listening on ws://localhost:63408/devtools/browser/19486212-5df7-4016-b7f0-2a2788c1f75e
 1647503399733	Marionette	INFO	Listening on port 63415
@@ -3879,3 +3884,41 @@ console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message f
 JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: can't access property "getRecipesForHost", gRecipeManager is null
 console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://mail.yandex.ru"
 JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: can't access property "getRecipesForHost", gRecipeManager is null
+1647503930304	Marionette	INFO	Stopped listening on port 63415
+WARNING: A blocker encountered an error while we were waiting.
+          Blocker:  CrashMonitor: Writing notifications to file after receiving profile-before-change and awaiting all checkpoints written
+          Phase: IOUtils: waiting for profileBeforeChange IO to complete
+          State: {"profile-after-change":true,"final-ui-startup":true,"sessionstore-windows-restored":true,"quit-application-granted":true,"quit-application":true,"profile-change-net-teardown":true,"profile-change-teardown":true,"profile-before-change":true}
+WARNING: OperationError: Could not move temporary file(C:\Users\3CDE~1\AppData\Local\Temp\rust_mozprofile6lTei4\sessionCheckpoints.json.tmp) to destination(C:\Users\3CDE~1\AppData\Local\Temp\rust_mozprofile6lTei4\sessionCheckpoints.json)
+WARNING: observe@resource://gre/modules/AsyncShutdown.jsm:575:16
+
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: OperationError: Could not move temporary file(C:\Users\3CDE~1\AppData\Local\Temp\rust_mozprofile6lTei4\sessionCheckpoints.json.tmp) to destination(C:\Users\3CDE~1\AppData\Local\Temp\rust_mozprofile6lTei4\sessionCheckpoints.json)
+
+###!!! [Parent][PGPUParent] Error: RunMessage(msgname=PGPU::Msg_ShutdownVR) Channel closing: too late to send/recv, messages will be lost
+
+1647559027184	geckodriver	INFO	Listening on 127.0.0.1:53251
+1647559030251	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Firefox Developer Edition\\firefox.exe" "--marionette" "--remote-debugging-port" "53252" "-no-remote" "-profile" "C:\\Users\\3CDE~1\\AppData\\Local\\Temp\\rust_mozprofileVCHt3C"
+1647559032592	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\3CDE~1\\AppData\\Local\\Temp\\rust_mozprofileVCHt3C\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:53252/devtools/browser/bf1e5e4d-d97f-4d9d-9d7f-91db95aff764
+1647559038699	Marionette	INFO	Listening on port 53263
+1647559039253	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://mc.yandex.ru/metrika/watch.js, line 12: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1647559046603	Marionette	INFO	Stopped listening on port 53263
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+JavaScript error: chrome://remote/content/marionette/cert.js, line 55: NS_ERROR_NOT_AVAILABLE: Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsICertOverrideService.setDisableAllSecurityChecksAndLetAttackersInterceptMyData]
+
+###!!! [Child][PContentChild] Error: Send(msgname=PHttpChannel::Msg_DeletingChannel) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: Send(msgname=PHttpChannel::Msg_Cancel) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: Send(msgname=PHttpChannel::Msg_DeletingChannel) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: Send(msgname=PWebSocket::Msg_DeleteSelf) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Parent][PGPUParent] Error: RunMessage(msgname=PGPU::Msg_ShutdownVR) Channel closing: too late to send/recv, messages will be lost
+

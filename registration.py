@@ -2,9 +2,11 @@ from selenium import webdriver
 from selenium.webdriver.common.by import By
 import time
 import mail_password_gen as gen
+from selenium.webdriver.support.ui import WebDriverWait
 
-class MailReg:
-    """Class Automail inits driver and functions login and mail """
+
+class MailboxReg:
+    """Класс задает аргументы для регистрации наследуемым классам"""
     def __init__(self, BASE_DIR):
         self.driver = webdriver.Firefox()
         with open(BASE_DIR + '/Data/Info_for_new_eboxes', 'r', encoding='utf-8') as info:
@@ -14,25 +16,29 @@ class MailReg:
                 full_name, self.sex, self.birthdate, self.phone_num = line.split(', ')
                 self.surname, self.name = full_name.split()[0], full_name.split()[1]
 
+class YandexReg(MailboxReg):
+
     def yandex_registation(self, BASE_DIR):
-        """Зарегистрировать новую электронную почту в любом почтовом сервисе"""
-        #We choose yandex mailserver
+        """Функция регистрации почтового ящика в почтовом сервисе яндекса"""
+
+        #Создаем переменную с адресом регистрации в почтовом сервисе
         mail_service_address = 'https://passport.yandex.ru/registration/'
+        #Подключаемся к адрессу регистрации
         self.driver.get(mail_service_address)
-        # Вводим имя
-        self.driver.find_element(By.XPATH, '//*[@id="firstname"]').send_keys(self.name)
-        # Вводим фамилию
-        self.driver.find_element(By.XPATH, '//*[@id="lastname"]').send_keys(self.surname)
-        #вызываем функцию генерации логина
+        #Вводим имя
+        self.driver.find_element(By.ID, 'firstname').send_keys(self.name)
+        #Вводим фамилию
+        self.driver.find_element(By.ID, 'lastname').send_keys(self.surname)
+        #вызываем функцию генерации логина и передаем ее результаты в виде кортежа в переменную
         email_address = gen.create_mail(self.name, self.surname, self.birthdate)
-        #Вводим сгенерированный адрес эл. почты
-        self.driver.find_element(By.XPATH, '//*[@id="login"]').send_keys(email_address)
-        #вызываем функцию генерации пароля
+        #Вводим сгенерированный логин в поле
+        self.driver.find_element(By.ID, 'login').send_keys(email_address)
+        #вызываем функцию генерации пароля и передаем ее результаты в переменную
         password = gen.create_password()
-        #вводим сгенерированный пароль
-        self.driver.find_element(By.XPATH, '//*[@id="password"]').send_keys(password)
+        #вводим сгенерированный пароль в поле
+        self.driver.find_element(By.ID, 'password').send_keys(password)
         #вводим сгенерированный пароль для подтверждения
-        self.driver.find_element(By.XPATH, '//*[@id="password_confirm"]').send_keys(password)
+        self.driver.find_element(By.ID, 'password_confirm').send_keys(password)
 
         #Вводим номер телефона
         #self.driver.find_element(By.XPATH, '//*[@id="phone"]').send_keys(self.phone_num)
