@@ -17,10 +17,9 @@ class MailboxReg:
                 self.surname, self.name = full_name.split()[0], full_name.split()[1]
 
 class YandexReg(MailboxReg):
-
+    """Наследуемый класс для регистрации почтового ящика в сервисе яндекса с родительскими аргументами """
     def yandex_registation(self, BASE_DIR):
         """Функция регистрации почтового ящика в почтовом сервисе яндекса"""
-
         #Создаем переменную с адресом регистрации в почтовом сервисе
         mail_service_address = 'https://passport.yandex.ru/registration/'
         #Подключаемся к адрессу регистрации
@@ -40,37 +39,46 @@ class YandexReg(MailboxReg):
         #вводим сгенерированный пароль для подтверждения
         self.driver.find_element(By.ID, 'password_confirm').send_keys(password)
 
+        """ Ниже приведенный код сохраняем на случай изменения политики 
+        безопасности сервиса и оперативного перевода       
         #Вводим номер телефона
-        #self.driver.find_element(By.XPATH, '//*[@id="phone"]').send_keys(self.phone_num)
-        #time.sleep(3)  # We use time sleep to give the page enoght time to load
-        #  Нажимаем кнопку подтвердить номер телефона
-        #self.driver.find_element(By.XPATH, '/html/body/div/div/div[2]/div/main/div/div/div/form/div[3]/div/div[2]/div/div[2]/button').click()
-        #time.sleep(5)  # We use time sleep to give the page enoght time to load
+        self.driver.find_element(By.ID, 'phone').send_keys(self.phone_num)
+        # Нажимаем кнопку подтвердить номер телефона
+        self.driver.find_element(By.XPATH, '/html/body/div/div/div[2]/div/main/div/div/div/form/div[3]/div/div[2]/div/div[2]/button').click()
+        time.sleep(5)  # We use time sleep to give the page enoght time to load
         # Вводим проверочный номер
-        # telephone_code = input('Проверочный код, который назвал Вам оператор по номеру телефона или в СМС: ')
-        # self.driver.find_element(By.XPATH, '//*[@id="phoneCode"]').send_keys(telephone_code)
-        #time.sleep(1)  # We use time sleep to give the page enoght time to load
+        telephone_code = input('Проверочный код, который назвал Вам оператор по номеру телефона или в СМС: ')
+        self.driver.find_element(By.XPATH, '//*[@id="phoneCode"]').send_keys(telephone_code)
+        time.sleep(1)  # We use time sleep to give the page enoght time to load
+        """
 
         #Нажимаем кнопку у меня нет номер телефона
-        self.driver.find_element(By.XPATH,'/html/body/div/div/div[2]/div/main/div/div/div/form/div[3]/div/div[2]/div/div[1]/span').click()
+        self.driver.find_element(By.XPATH, '/html/body/div/div/div[2]/div/main/div/div/div/form/div[3]/div/div[2]/div/div[1]/span').click()
         time.sleep(3)
         # Вводим ответ на вопрос
-        self.driver.find_element(By.XPATH, '//*[@id="hint_answer"]').send_keys('Кроваво-красное ничто')
+        self.driver.find_element(By.ID, 'hint_answer').send_keys('Кроваво-красное ничто')
         # Вводим capture
         answer = input("Введите символы:  ")
-        self.driver.find_element(By.XPATH, '//*[@id="captcha"]').send_keys(answer)
+        self.driver.find_element(By.ID, 'captcha').send_keys(answer)
         time.sleep(1)  # We use time sleep to give the page enoght time to load
         # Нажимаем кнопку зарегистрироваться
         self.driver.find_element(By.XPATH,'/html/body/div/div/div[2]/div/main/div/div/div/form/div[4]/span/button').click()
         # Нажимаем кнопку пропустить
         time.sleep(5)  # We use time sleep to give the page enoght time to load
-        self.driver.find_element(By.XPATH, '/html/body/div/div/div[1]/div[2]/main/div/div/div/div[3]/span/a').click()
-        written_line = f'{email_address}:{password}\n'
+        self.driver.find_element(By.CLASS_NAME, '/html/body/div/div/div[1]/div[2]/main/div/div/div/div[3]/span/a').click()
+
         """По завершению выполенния функции программа записывает сведения о логине и пароле 
-        для дальнейшего использования. Скрипт можно улучшить и предусмотреть возможность дозаписывания новых логинов ('a').
-        Но сейчас это не актуально"""
+            для дальнейшего использования. Скрипт можно улучшить и предусмотреть возможность дозаписывания новых логинов ('a').
+            Но сейчас это не актуально"""
+        written_line = f'{email_address}:{password}\n'
         with open(BASE_DIR + '/Data/Created_accounts.txt', 'w', encoding='utf-8') as f:
             f.write(written_line)
+        self.driver.close()
+        print(f"Почта создана! Данные об аккаунте сохранены в файл {BASE_DIR}/Data/Created_accounts.txt'")
+
+
+class Mailru(MailboxReg):
+
     def mailru_registation(self, BASE_DIR):
         """Данная функция оставлена для будущей возможности масштабирования класса с другими платформати """
         pass
