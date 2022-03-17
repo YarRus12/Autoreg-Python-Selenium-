@@ -18,7 +18,7 @@ class MailSend:
         #Ввод логина
         self.driver.find_element(By.ID, 'passp-field-login').send_keys(self.login)
         self.driver.find_element(By.ID, "passp:sign-in").click()
-        time.sleep(3)  # We use time sleep to give the page enoght time to load
+        time.sleep(5)  # We use time sleep to give the page enoght time to load
         #Ввод пароля
         self.driver.find_element(By.ID, "passp-field-passwd").send_keys(self.password)
         self.driver.find_element(By.ID, "passp:sign-in").click()
@@ -49,41 +49,52 @@ class MailSend:
             self.driver.find_element(By.XPATH, '/html/body/div/div/div[2]/div[2]/div/div/div[2]/div[2]/form/div[2]/button').click()
             time.sleep(8)
         except:
+           pass
+        time.sleep(5)
+        # Может встплыть окно "С красивым адресом почты"
+        try:
+            self.driver.find_element(By.XPATH, '/html/body/div[13]/div[2]/div/div/div/article/span/button').click()
+        except:
             pass
-        time.sleep(8)
         #Нажимаем написать письмо
-        self.driver.find_element(By.XPATH, '/html/body/div[2]/div[2]/div[7]/div/div[3]/div[2]/div[1]/div/div/div/a/span').click()
-        time.sleep(5)  # We use time sleep to give the page enoght time to load
+        try:
+            self.driver.find_element(By.XPATH, '/html/body/div[2]/div[2]/div[7]/div/div[3]/div[2]/div[1]/div/div/div/a/span').click()
+            time.sleep(5)  # We use time sleep to give the page enoght time to load
+        except:
+            time.sleep(5)  # We use time sleep to give the page enoght time to load
+            self.driver.find_element(By.XPATH,
+                                     '/html/body/div[2]/div[2]/div[7]/div/div[3]/div[2]/div[1]/div/div/div/a/span').click()
+            time.sleep(5)  # We use time sleep to give the page enoght time to load
+        #Вставляем тему
+        topic = 'Задание 1. На вакансию Junior Python developer'
+        self.driver.find_element(By.CSS_SELECTOR, '.composeTextField').send_keys(topic)
+        time.sleep(1)
+        #Вставляем сообщение
+        with open(BASE_DIR + '/Data/Message', 'r', encoding='utf-8') as text:
+                massage = [x for x in text]
+        self.driver.find_element(By.XPATH, '/html/body/div[2]/div[2]/div[10]/div/div/div[1]/div/div[2]/div/div[1]/div[1]/div[1]/div/div[3]/div[2]/div[2]/div[1]/div/div/div').send_keys(massage)
+        time.sleep(1)
+        # Вставляем список рассылки
         emails_list = []
         with open(BASE_DIR + '/Data/Emails_list', 'r', encoding='utf-8') as emails:
             for line in emails:
                 emails_list.append(line)
-        topic = 'Задание 1. На вакансию Junior Python developer'
-        with open(BASE_DIR + '/Data/Message', 'r', encoding='utf-8') as text:
-                massage = [x for x in text]
-        self.driver.find_element(By.CSS_SELECTOR, '.composeTextField').send_keys(topic)
-        self.driver.find_element(By.XPATH, '/html/body/div[2]/div[2]/div[10]/div/div/div[2]/div/div[2]/div/div[1]/div[1]/div[1]/div/div[3]/div[2]/div[2]/div[1]/div/div/div').send_keys(massage)
-        # Вставляем список рассылки
         for i in range(len(emails_list)):
-            self.driver.find_element(By.XPATH, '/html/body/div[2]/div[2]/div[10]/div/div/div[2]/div/div[2]/div/div[1]/div[1]/div[1]/div/div[1]/div[1]/div[1]/div/div/div/div/div').send_keys(emails_list[i])
+            self.driver.find_element(By.XPATH, '/html/body/div[2]/div[2]/div[10]/div/div/div[1]/div/div[2]/div/div[1]/div[1]/div[1]/div/div[1]/div[1]/div[1]/div/div/div/div/div').send_keys(emails_list[i])
+        time.sleep(1)
         #Прикрепляем архив
         path = BASE_DIR + '\Data\Selenium_test.rar'
         self.driver.find_element(By.CSS_SELECTOR,'input[type=file]').send_keys(path)
-        time.sleep(10)
-        #self.driver.find_element(By.XPATH, '/html/body/div[2]/div[2]/div[10]/div/div/div[2]/div/div[2]/div/div[1]/div[1]/div[2]/div/div[1]/div[1]/button').click()
-        flag = 'False'
-        while flag == 'False':
-            try:
-                #Нажимаем отправить
-                self.driver.find_element(By.XPATH, '/html/body/div[2]/div[2]/div[10]/div/div/div[2]/div/div[2]/div/div[1]/div[1]/div[2]/div/div[1]/div[1]/button').click()
-                flag = "True"
-                time.sleep(2)
-                print("Письмо отправлено!")
-            except:
-                self.driver.find_element(By.XPATH, '/html/body/div[2]/div[2]/div[10]/div/div/div[2]/div/div[2]/div/div[1]/div[3]/div/div/div/div/div[3]/button').click()
-                time.sleep(5)
-                pass
-
+        time.sleep(20)
+        try:
+            # Нажимаем отправить
+            self.driver.find_element(By.XPATH,
+                                     '/html/body/div[2]/div[2]/div[10]/div/div/div[1]/div/div[2]/div/div[1]/div[1]/div[2]/div/div[1]/div[1]/button').click()
+            flag = "True"
+            time.sleep(2)
+            print("Письмо отправлено!")
+        except:
+            print("Письмо не отправилось")
 
 if __name__ == '__main__':
     MailSend()

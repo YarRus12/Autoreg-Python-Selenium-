@@ -33,20 +33,31 @@ class MailReg:
         self.driver.find_element(By.XPATH, '//*[@id="password"]').send_keys(password)
         #вводим сгенерированный пароль для подтверждения
         self.driver.find_element(By.XPATH, '//*[@id="password_confirm"]').send_keys(password)
+
         #Вводим номер телефона
-        self.driver.find_element(By.XPATH, '//*[@id="phone"]').send_keys(self.phone_num)
-        time.sleep(3)  # We use time sleep to give the page enoght time to load
+        #self.driver.find_element(By.XPATH, '//*[@id="phone"]').send_keys(self.phone_num)
+        #time.sleep(3)  # We use time sleep to give the page enoght time to load
         #  Нажимаем кнопку подтвердить номер телефона
-        self.driver.find_element(By.XPATH, '/html/body/div/div/div[2]/div/main/div/div/div/form/div[3]/div/div[2]/div/div[2]/button').click()
-        time.sleep(5)  # We use time sleep to give the page enoght time to load
+        #self.driver.find_element(By.XPATH, '/html/body/div/div/div[2]/div/main/div/div/div/form/div[3]/div/div[2]/div/div[2]/button').click()
+        #time.sleep(5)  # We use time sleep to give the page enoght time to load
         # Вводим проверочный номер
-        telephone_code = input('Проверочный код, который назвал Вам оператор по номеру телефона или в СМС: ')
-        self.driver.find_element(By.XPATH, '//*[@id="phoneCode"]').send_keys(telephone_code)
+        # telephone_code = input('Проверочный код, который назвал Вам оператор по номеру телефона или в СМС: ')
+        # self.driver.find_element(By.XPATH, '//*[@id="phoneCode"]').send_keys(telephone_code)
+        #time.sleep(1)  # We use time sleep to give the page enoght time to load
+
+        #Нажимаем кнопку у меня нет номер телефона
+        self.driver.find_element(By.XPATH,'/html/body/div/div/div[2]/div/main/div/div/div/form/div[3]/div/div[2]/div/div[1]/span').click()
+        time.sleep(3)
+        # Вводим ответ на вопрос
+        self.driver.find_element(By.XPATH, '//*[@id="hint_answer"]').send_keys('Кроваво-красное ничто')
+        # Вводим capture
+        answer = input("Введите символы:  ")
+        self.driver.find_element(By.XPATH, '//*[@id="captcha"]').send_keys(answer)
         time.sleep(1)  # We use time sleep to give the page enoght time to load
         # Нажимаем кнопку зарегистрироваться
         self.driver.find_element(By.XPATH,'/html/body/div/div/div[2]/div/main/div/div/div/form/div[4]/span/button').click()
         # Нажимаем кнопку пропустить
-        time.sleep(3)  # We use time sleep to give the page enoght time to load
+        time.sleep(5)  # We use time sleep to give the page enoght time to load
         self.driver.find_element(By.XPATH, '/html/body/div/div/div[1]/div[2]/main/div/div/div/div[3]/span/a').click()
         written_line = f'{email_address}:{password}\n'
         """По завершению выполенния функции программа записывает сведения о логине и пароле 

@@ -11,7 +11,10 @@ print("Почта создана! Данные об аккаунте сохра�
 #m_send = send.MailSend(BASE_DIR)
 #m_send.log_in_yandex()
 m_send = send.MailSend(BASE_DIR)
-m_send.send_mail(BASE_DIR)
+try:
+    m_send.send_mail(BASE_DIR)
+except:
+    m_send.send_mail(BASE_DIR)
 
 print("Выполнение скрипта завершено")
 
