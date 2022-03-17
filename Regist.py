@@ -50,8 +50,3 @@ class MailReg:
 
 if __name__ == '__main__':
     main = MailReg()
-    result = reg.MailRegistation()
-    email_address_password = result.yandex_registation(name, surname, birthdate, sex, telephone)
-    written_line = f'{email_address_password[0]}:{email_address_password[1]}\n'
-    with open(BASE_DIR + '/Data/Created_accounts_txt', 'a', encoding='utf-8') as f:
-        f.write(written_line)

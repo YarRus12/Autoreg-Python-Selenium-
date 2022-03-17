@@ -23,4 +23,10 @@ with open(BASE_DIR + '/Data/Info_for_new_eboxes', 'r', encoding='utf-8') as info
         full_name, sex, birthdate, phone_num = line.split(', ')
         surname, name = full_name.split()[0], full_name.split()[1]
 
-print(name, surname, birthdate, sex, phone_num)
+main = reg.MailReg()
+email_address_password = main.yandex_registation(name, surname, birthdate, sex, phone_num)
+written_line = f'{email_address_password[0]}:{email_address_password[1]}\n'
+with open(BASE_DIR + '/Data/Created_accounts_txt', 'a', encoding='utf-8') as f:
+    f.write(written_line)
+
+print("Выполнение скрипта завершено")
