@@ -5,20 +5,26 @@ import mail_password_gen as gen
 
 class MailReg:
     """Class Automail inits driver and functions login and mail """
-    def __init__(self):
+    def __init__(self, BASE_DIR):
         self.driver = webdriver.Firefox()
+        with open(BASE_DIR + '/Data/Info_for_new_eboxes', 'r', encoding='utf-8') as info:
+            """Считывание файла с данными и преобразование его 
+            в переменные выполнено для обеспечения масштабируемости проекта"""
+            for line in info:
+                full_name, self.sex, self.birthdate, self.phone_num = line.split(', ')
+                self.surname, self.name = full_name.split()[0], full_name.split()[1]
 
-    def yandex_registation(self, name, surname, birthdate, sex, telephone):
+    def yandex_registation(self, BASE_DIR):
         """Зарегистрировать новую электронную почту в любом почтовом сервисе"""
         #We choose yandex mailserver
-        mail_registration = 'https://passport.yandex.ru/registration/'
-        self.driver.get(mail_registration)
+        mail_service_address = 'https://passport.yandex.ru/registration/'
+        self.driver.get(mail_service_address)
         # Вводим имя
-        self.driver.find_element(By.XPATH, '//*[@id="firstname"]').send_keys(name)
+        self.driver.find_element(By.XPATH, '//*[@id="firstname"]').send_keys(self.name)
         # Вводим фамилию
-        self.driver.find_element(By.XPATH, '//*[@id="lastname"]').send_keys(surname)
+        self.driver.find_element(By.XPATH, '//*[@id="lastname"]').send_keys(self.surname)
         #вызываем функцию генерации логина
-        email_address = gen.create_mail(name,surname,birthdate)
+        email_address = gen.create_mail(self.name, self.surname, self.birthdate)
         #Вводим сгенерированный адрес эл. почты
         self.driver.find_element(By.XPATH, '//*[@id="login"]').send_keys(email_address)
         #вызываем функцию генерации пароля
@@ -28,8 +34,8 @@ class MailReg:
         #вводим сгенерированный пароль для подтверждения
         self.driver.find_element(By.XPATH, '//*[@id="password_confirm"]').send_keys(password)
         #Вводим номер телефона
-        self.driver.find_element(By.XPATH, '//*[@id="phone"]').send_keys(telephone)
-        time.sleep(1)  # We use time sleep to give the page enoght time to load
+        self.driver.find_element(By.XPATH, '//*[@id="phone"]').send_keys(self.phone_num)
+        time.sleep(2)  # We use time sleep to give the page enoght time to load
         #  Нажимаем кнопку подтвердить номер телефона
         self.driver.find_element(By.XPATH, '/html/body/div/div/div[2]/div/main/div/div/div/form/div[3]/div/div[2]/div/div[2]/button').click()
         time.sleep(3)  # We use time sleep to give the page enoght time to load
@@ -42,10 +48,14 @@ class MailReg:
         # Нажимаем кнопку пропустить
         time.sleep(3)  # We use time sleep to give the page enoght time to load
         self.driver.find_element(By.XPATH, '/html/body/div/div/div[1]/div[2]/main/div/div/div/div[3]/span/a').click()
-        return email_address, password
-
-    def mailru_registation(self, name, surname, birthdate, s, telephone):
-        """Зарегистрировать новую электронную почту в любом почтовом сервисе"""
+        written_line = f'{email_address}:{password}\n'
+        """По завершению выполенния функции программа записывает сведения о логине и пароле 
+        для дальнейшего использования. Скрипт можно улучшить и предусмотреть возможность дозаписывания новых логинов ('a').
+        Но сейчас это не актуально"""
+        with open(BASE_DIR + '/Data/Created_accounts.txt', 'w', encoding='utf-8') as f:
+            f.write(written_line)
+    def mailru_registation(self, BASE_DIR):
+        """Данная функция оставлена для будущей возможности масштабирования класса с другими платформати """
         pass
 
 if __name__ == '__main__':
