@@ -35,10 +35,10 @@ class MailReg:
         self.driver.find_element(By.XPATH, '//*[@id="password_confirm"]').send_keys(password)
         #Вводим номер телефона
         self.driver.find_element(By.XPATH, '//*[@id="phone"]').send_keys(self.phone_num)
-        time.sleep(2)  # We use time sleep to give the page enoght time to load
+        time.sleep(3)  # We use time sleep to give the page enoght time to load
         #  Нажимаем кнопку подтвердить номер телефона
         self.driver.find_element(By.XPATH, '/html/body/div/div/div[2]/div/main/div/div/div/form/div[3]/div/div[2]/div/div[2]/button').click()
-        time.sleep(3)  # We use time sleep to give the page enoght time to load
+        time.sleep(5)  # We use time sleep to give the page enoght time to load
         # Вводим проверочный номер
         telephone_code = input('Проверочный код, который назвал Вам оператор по номеру телефона или в СМС: ')
         self.driver.find_element(By.XPATH, '//*[@id="phoneCode"]').send_keys(telephone_code)
