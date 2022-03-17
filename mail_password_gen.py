@@ -3,7 +3,7 @@ import random
 
 def create_mail(name,surname,birthdate):
     birthdate = birthdate.split('.')
-    return f'{name}.{surname}{int(birthdate[0])*random.randint(1,9)}{int(birthdate[1])*random.randint(1,9)}'
+    return f'{name}.{surname}{(int(birthdate[0])*random.randint(1,9)*random.randint(1,9))//random.randint(1,100)}{int(birthdate[1])*random.randint(1,9)}'
 
 def create_password():
     length = random.randint(10, 20)
