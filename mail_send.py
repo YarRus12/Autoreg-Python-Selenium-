@@ -3,30 +3,32 @@ from selenium.webdriver.common.by import By
 import time
 import mail_password_gen as gen
 
-
 class MailSend:
     """Class MailSend inits driver and functions to send mails """
-    def __init__(self, BASE_DIR):
+    def __init__(self, base_direction):
+        self.base_direction = base_direction
         self.driver = webdriver.Firefox()
-        with open(BASE_DIR + '/Data/Created_accounts.txt', 'r', encoding='utf-8') as f:
+        with open(self.base_direction + '/Data/Created_accounts.txt', 'r', encoding='utf-8') as f:
             for line in f:
                 self.login, self.password = line.split(':')[0], line.split(':')[1]
+
+class YandexMailSend(MailSend):
     def log_in_yandex(self):
-        """ Login function sigh in googlemail with email and password as arguments"""
+        """ Login function sigh in yandexmail with email and password as arguments"""
         #авторизация в почте Яндекса
-        #self.driver.get('https://passport.yandex.ru/auth')
         #Ввод логина
         self.driver.find_element(By.ID, 'passp-field-login').send_keys(self.login)
         self.driver.find_element(By.ID, "passp:sign-in").click()
-        time.sleep(5)  # We use time sleep to give the page enoght time to load
+        self.driver.implicitly_wait(5)
         #Ввод пароля
         self.driver.find_element(By.ID, "passp-field-passwd").send_keys(self.password)
         self.driver.find_element(By.ID, "passp:sign-in").click()
+        print(f'Вход в аккаунт {self.login} выполнен успешно!')
 
-    def send_mail(self, BASE_DIR):
+    def yand_send_mail(self):
         """Функция по отправке писем, принимает в себя сведения о текущем расположении проекта"""
         self.driver.get('https://mail.yandex.ru')
-        time.sleep(1)  # We use time sleep to give the page enoght time to load
+        self.driver.implicitly_wait(1) # We use wait to give the page enough time to load
         #Нажатие кнопки "Войти"
         self.driver.find_element(By.XPATH, '/html/body/div/div/div[2]/div/div/div[4]/a[2]').click()
         # У Яндекса рамдомно выпадает два варианта входа. Попробуем более редкий через исключения
@@ -34,9 +36,10 @@ class MailSend:
             self.driver.find_element(By.XPATH, '/html/body/div/div/div[2]/div[2]/div/div/div[2]/div[3]/div/div/div/div[1]/form/div[1]/div[2]/button').click()
         except:
             pass
+        #Используем
         self.log_in_yandex()
         # При добавлении новой почты Яндекc предлагает добавить дополнительную почту. Обработаем как исключение
-        time.sleep(8)
+        self.driver.implicitly_wait(5) # We use wait to give the page enough time to load
         try:
             self.driver.find_element(By.XPATH, '/html/body/div/div/div[2]/div[2]/div/div/div[2]/div[3]/div/div/form/div[3]/button').click()
         except:
@@ -47,10 +50,10 @@ class MailSend:
             telephone_code = input('Проверочный код, который назвал Вам оператор по номеру телефона или в СМС: ')
             self.driver.find_element(By.XPATH, '//*[@id="passp-field-phoneCode"]').send_keys(telephone_code)
             self.driver.find_element(By.XPATH, '/html/body/div/div/div[2]/div[2]/div/div/div[2]/div[2]/form/div[2]/button').click()
-            time.sleep(8)
+            self.driver.implicitly_wait(5) # We use wait to give the page enough time to load
         except:
            pass
-        time.sleep(5)
+        self.driver.implicitly_wait(5) # We use wait to give the page enough time to load
         # Может встплыть окно "С красивым адресом почты"
         try:
             self.driver.find_element(By.XPATH, '/html/body/div[13]/div[2]/div/div/div/article/span/button').click()
@@ -59,42 +62,56 @@ class MailSend:
         #Нажимаем написать письмо
         try:
             self.driver.find_element(By.XPATH, '/html/body/div[2]/div[2]/div[7]/div/div[3]/div[2]/div[1]/div/div/div/a/span').click()
-            time.sleep(5)  # We use time sleep to give the page enoght time to load
+            self.driver.implicitly_wait(3) # We use wait to give the page enough time to load
         except:
-            time.sleep(5)  # We use time sleep to give the page enoght time to load
+            self.driver.implicitly_wait(2) # We use wait to give the page enough time to load
             self.driver.find_element(By.XPATH,
                                      '/html/body/div[2]/div[2]/div[7]/div/div[3]/div[2]/div[1]/div/div/div/a/span').click()
-            time.sleep(5)  # We use time sleep to give the page enoght time to load
+
         #Вставляем тему
         topic = 'Задание 1. На вакансию Junior Python developer'
         self.driver.find_element(By.CSS_SELECTOR, '.composeTextField').send_keys(topic)
-        time.sleep(1)
+
         #Вставляем сообщение
-        with open(BASE_DIR + '/Data/Message', 'r', encoding='utf-8') as text:
+        with open(self.base_direction + '/Data/Message', 'r', encoding='utf-8') as text:
                 massage = [x for x in text]
-        self.driver.find_element(By.XPATH, '/html/body/div[2]/div[2]/div[10]/div/div/div[1]/div/div[2]/div/div[1]/div[1]/div[1]/div/div[3]/div[2]/div[2]/div[1]/div/div/div').send_keys(massage)
-        time.sleep(1)
+        self.driver.find_element(By.XPATH, '/html/body/div[2]/div[2]/div[10]/div/div/div[2]/div/div[2]/div/div[1]/div[1]/div[1]/div/div[3]/div[2]/div[2]/div[1]/div/div/div').send_keys(massage)
+        self.driver.implicitly_wait(5) # We use wait to give the page enough time to load
+
         # Вставляем список рассылки
         emails_list = []
-        with open(BASE_DIR + '/Data/Emails_list', 'r', encoding='utf-8') as emails:
+        with open(self.base_direction + '/Data/Emails_list', 'r', encoding='utf-8') as emails:
             for line in emails:
                 emails_list.append(line)
         for i in range(len(emails_list)):
-            self.driver.find_element(By.XPATH, '/html/body/div[2]/div[2]/div[10]/div/div/div[1]/div/div[2]/div/div[1]/div[1]/div[1]/div/div[1]/div[1]/div[1]/div/div/div/div/div').send_keys(emails_list[i])
-        time.sleep(1)
+            self.driver.find_element(By.XPATH, '/html/body/div[2]/div[2]/div[10]/div/div/div[2]/div/div[2]/div/div[1]/div[1]/div[1]/div/div[1]/div[1]/div[1]/div/div/div/div/div').send_keys(emails_list[i])
+        self.driver.implicitly_wait(5)  # We use wait to give the page enough time to load
         #Прикрепляем архив
-        path = BASE_DIR + '\Data\Selenium_test.rar'
+        path = self.base_direction + '\Data\Selenium_test.rar'
         self.driver.find_element(By.CSS_SELECTOR,'input[type=file]').send_keys(path)
-        time.sleep(20)
+        self.driver.implicitly_wait(20) # We use wait to give the page enough time to load
         try:
             # Нажимаем отправить
             self.driver.find_element(By.XPATH,
-                                     '/html/body/div[2]/div[2]/div[10]/div/div/div[1]/div/div[2]/div/div[1]/div[1]/div[2]/div/div[1]/div[1]/button').click()
-            flag = "True"
-            time.sleep(2)
-            print("Письмо отправлено!")
+                                     '/html/body/div[2]/div[2]/div[10]/div/div/div[2]/div/div[2]/div/div[1]/div[1]/div[2]/div/div[1]/div[1]/button').click()
+            try:
+                a = self.driver.find_element(By.XPATH,
+                                         '/html/body/div[2]/div[2]/div[10]/div/div/div[2]/div/div[2]/div/div[1]/div[3]/div/div/div/div/div[2]/div/div/div[2]/input')
+                if a is not None:
+                    check = input('Введите символы на картинке: ')
+                    a.send_keys(check)
+                    self.driver.find_element(By.XPATH,
+                                         '/html/body/div[2]/div[2]/div[10]/div/div/div[2]/div/div[2]/div/div[1]/div[3]/div/div/div/div/div[3]/button').click()
+            except:
+                pass
+                print("Письмо отправлено!")
         except:
             print("Письмо не отправилось")
+            pass
+        self.driver.quit()
+
+    """ Осталась проблема с противодействием спаму.  """
+
 
 if __name__ == '__main__':
     MailSend()

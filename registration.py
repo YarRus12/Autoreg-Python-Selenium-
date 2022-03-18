@@ -90,10 +90,11 @@ class YandexReg(MailboxReg):
                 break
             except:
                 pass
+        self.driver.quit()
 
-class Mailru(MailboxReg):
+class GMail(MailboxReg):
 
-    def mailru_registation(self):
+    def gmail_registation(self):
         """Данная функция оставлена для будущей возможности масштабирования класса с другими платформати """
         pass
 
