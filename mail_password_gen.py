@@ -15,8 +15,4 @@ def create_password():
             flag = 'True'
     return password
 
-#print(create_password())
-#print(create_mail('Anton','Groznyi','12.11.1990'))
-
-
 

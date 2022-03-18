@@ -13,10 +13,6 @@ class MailSend:
             for line in f:
                 self.login, self.password = line.split(':')[0], line.split(':')[1]
 
-# class GmailSend(MailSend):
-    # def log_in_gmail(self):
-     # заготовка
-
 
 class YandexMailSend(MailSend):
     def log_in_yandex(self):

@@ -7,7 +7,7 @@ from selenium.webdriver.support.ui import Select
 
 
 class MailboxReg:
-    """Класс задает аргументы для регистрации наследуемым классам"""
+    """Класс задает аргументы для регистрации в наследуемых классах"""
     def __init__(self, base_directory):
         self.driver = webdriver.Firefox()
         self.base_directory = base_directory
@@ -83,9 +83,8 @@ class YandexReg(MailboxReg):
         self.driver.quit()
 
 class GMailReg(MailboxReg):
-
+    """Данный класс составлен как будущий проект! Он еще не оттестирован """
     def gmail_registation(self):
-        """Данная функция оставлена для будущей возможности масштабирования класса с другими платформати """
         # Создаем переменную с адресом регистрации в почтовом сервисе
         mail_service_address = 'https://accounts.google.com/signup/v2'
         # Подключаемся к адрессу регистрации
@@ -135,11 +134,12 @@ class GMailReg(MailboxReg):
         # Нажимаем кнопку "Принимаю"
         self.driver.find_element(By.CSS_SELECTOR, '.VfPpkd-LgbsSe-OWXEXe-k8QpJ > div:nth-child(3)').click()
         print(f"Почта создана! Данные об аккаунте сохранены в файл {self.base_directory}/Data/Created_accounts.txt'")
+        #Впереди тестирование!
+
 
 class MailruReg(MailboxReg):
-
+    """Данный класс составлен как будущий проект. Он еще не закончен """
     def mailru_registation(self):
-        """Данная функция оставлена для будущей возможности масштабирования класса с другими платформати """
         # Создаем переменную с адресом регистрации в почтовом сервисе
         mail_service_address = 'https://account.mail.ru/signup'
         # Подключаемся к адрессу регистрации
@@ -148,79 +148,29 @@ class MailruReg(MailboxReg):
         # Вводим имя
         self.driver.find_element(By.ID, 'fname').send_keys(self.name)
         time.sleep(1)
-
         # Вводим фамилию
         self.driver.find_element(By.ID, 'lname').send_keys(self.surname)
         time.sleep(1)
-
         # Вводим сгенерированный логин в поле
         self.driver.find_element(By.ID, 'aaa__input').send_keys(self.email_address)
         time.sleep(1)
-
         # Вводим сгенерированный пароль в поле
         self.driver.find_element(By.ID, 'password').send_keys(self.password)
         time.sleep(1)
-
         # Вводим сгенерированный пароль для подтверждения
         self.driver.find_element(By.ID, 'repeatPassword').send_keys(self.password)
         time.sleep(1)
-
-        # Ставим галочку выбора пола аккаунта
+        # Ставим галочку выбора пола аккаунта !!!!!!!! Здесь пока не выходит
         if self.sex.islower() == "м":
             self.driver.find_element(By.CLASS_NAME,
                                      'radio-0-2-139').click()
         elif self.sex.islower() == "ж":
             self.driver.find_element(By.CSS_SELECTOR, 'label.label-0-2-138:nth-child(3) > div:nth-child(2) > span:nth-child(1)').click()
         time.sleep(1)
-
         #нажимаем поле "укажите резервный почтовый ящик" и вводим его
         self.driver.find_element(By.CSS_SELECTOR, 'span.styles__rightTopLink--3tzHt:nth-child(2) > a:nth-child(1)').click()
         time.sleep(1)
-
-        """
-
-        self.driver.find_element(By.ID, 'extra-email').send_keys('yaroslav.russu@mail.ru')
-        # нажимаем "Создать"
-        self.driver.find_element(By.CSS_SELECTOR,'button.base-0-2-6:nth-child(21) > span:nth-child(1)').click()
-
-        
-        # Нажимаем кнопку "Далее"
-        self.driver.find_element(By.ID, 'accountDetailsNext').click()
-        # Gmail борется со спамом через номер телефона, поэтому вводим заготовленный номер
-        self.driver.find_element(By.ID, 'phoneNumberId').send_keys(self.phone_num)
-        # Нажимаем кнопку "Далее"
-        self.driver.find_element(By.CSS_SELECTOR, '.VfPpkd-LgbsSe-OWXEXe-k8QpJ').click()
-        # Оператору придется ввести код подтверждения
-        while True:
-            try:
-                code = input("Введите код подтверждения: ")
-                self.driver.find_element(By.ID, 'code').send_keys(code)
-                break
-            except:
-                pass
-        # Нажимаем кнопку "Далее"
-        self.driver.find_element(By.CSS_SELECTOR, '.VfPpkd-LgbsSe-OWXEXe-k8QpJ > span:nth-child(4)').click()
-        # Готовим данные о дате рождения для ввода в поля
-        day, month, year = str(self.birthdate).split('.')
-        # Вводим день рождения
-        self.driver.find_element(By.ID, 'day').send_keys(day)
-        # Выбираем в выпадающем списке месяц рождения
-        select_m = Select(self.driver.find_element(By.ID, 'month'))
-        select_m.select_by_value(month)
-        # Вводим год рождения
-        self.driver.find_element(By.ID, 'year').send_keys(year)
-        # Выбираем в выпадающем списке пол неуказан, так как нам это не принципиально
-        select_g = Select(self.driver.find_element(By.ID, 'gender'))
-        select_g.select_by_value('Не указан')
-        # Нажимаем кнопку "Далее"
-        self.driver.find_element(By.CSS_SELECTOR, '.VfPpkd-LgbsSe-OWXEXe-k8QpJ > span:nth-child(4)').click()
-        # Нажимаем кнопку "Пропустить"
-        self.driver.find_element(By.CSS_SELECTOR, '.kDmnNe > div:nth-child(1) > button:nth-child(1) > span:nth-child(4)').click()
-        # Нажимаем кнопку "Принимаю"
-        self.driver.find_element(By.CSS_SELECTOR, '.VfPpkd-LgbsSe-OWXEXe-k8QpJ > div:nth-child(3)').click()
-        print(f"Почта создана! Данные об аккаунте сохранены в файл {self.base_directory}/Data/Created_accounts.txt'")
-
-"""
+        #Работа продолжается
 
 if __name__ == '__main__':
     main = MailReg()
