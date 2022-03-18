@@ -13,6 +13,11 @@ class MailSend:
             for line in f:
                 self.login, self.password = line.split(':')[0], line.split(':')[1]
 
+# class GmailSend(MailSend):
+    # def log_in_gmail(self):
+     # заготовка
+
+
 class YandexMailSend(MailSend):
     def log_in_yandex(self):
         """ Login function sigh in yandexmail with email and password as arguments"""
@@ -39,6 +44,7 @@ class YandexMailSend(MailSend):
             pass
         #Используем функция входа в аккаунта яндекс почты
         self.log_in_yandex()
+        time.sleep(10)
         # При добавлении новой почты Яндекc предлагает добавить дополнительную почту. Обработаем как исключение
         self.driver.implicitly_wait(5) # We use wait to give the page enough time to load
         try:
@@ -65,7 +71,6 @@ class YandexMailSend(MailSend):
             self.driver.find_element(By.XPATH, '/html/body/div[2]/div[2]/div[7]/div/div[3]/div[2]/div[1]/div/div/div/a/span').click()
             self.driver.implicitly_wait(5) # We use wait to give the page enough time to load
         except:
-            self.driver.implicitly_wait(2) # We use wait to give the page enough time to load
             self.driver.find_element(By.XPATH,
                                      '/html/body/div[2]/div[2]/div[7]/div/div[3]/div[2]/div[1]/div/div/div/a/span').click()
 
@@ -76,7 +81,7 @@ class YandexMailSend(MailSend):
         #Вставляем сообщение
         with open(self.base_direction + '/Data/Message', 'r', encoding='utf-8') as text:
                 massage = [x for x in text]
-        self.driver.find_element(By.XPATH, '/html/body/div[2]/div[2]/div[10]/div/div/div[2]/div/div[2]/div/div[1]/div[1]/div[1]/div/div[3]/div[2]/div[2]/div[1]/div/div/div').send_keys(massage)
+        self.driver.find_element(By.XPATH, '/html/body/div[2]/div[2]/div[10]/div/div/div[1]/div/div[2]/div/div[1]/div[1]/div[1]/div/div[3]/div[2]/div[2]/div[1]/div/div/div').send_keys(massage)
         self.driver.implicitly_wait(5) # We use wait to give the page enough time to load
 
         # Вставляем список рассылки
@@ -85,17 +90,16 @@ class YandexMailSend(MailSend):
             for line in emails:
                 emails_list.append(line)
         for i in range(len(emails_list)):
-            self.driver.find_element(By.XPATH, '/html/body/div[2]/div[2]/div[10]/div/div/div[2]/div/div[2]/div/div[1]/div[1]/div[1]/div/div[1]/div[1]/div[1]/div/div/div/div/div').send_keys(emails_list[i])
+            self.driver.find_element(By.XPATH, '/html/body/div[2]/div[2]/div[10]/div/div/div[1]/div/div[2]/div/div[1]/div[1]/div[1]/div/div[1]/div[1]/div[1]/div/div/div/div/div').send_keys(emails_list[i])
         self.driver.implicitly_wait(5)  # We use wait to give the page enough time to load
         #Прикрепляем архив
-        path = self.base_direction + '\Data\Selenium_test.rar'
+        path = self.base_direction + '\Data\Selenium_JPD.rar'
         self.driver.find_element(By.CSS_SELECTOR,'input[type=file]').send_keys(path)
         time.sleep(20) # We use time.sleep to give the page enough time to load
         while True:
             try:
                 # Нажимаем отправить
-                self.driver.find_element(By.XPATH,
-                                         '/html/body/div[2]/div[2]/div[10]/div/div/div[2]/div/div[2]/div/div[1]/div[1]/div[2]/div/div[1]/div[1]/button').click()
+                self.driver.find_element(By.CSS_SELECTOR, 'button.Button2_view_default').click()
                 print("Нажата кнопка отправить")
 
                 # Если время загрузки архива недостаточно то откроется окно с соответствующей записью
@@ -103,7 +107,7 @@ class YandexMailSend(MailSend):
                 try:
                     self.driver.find_element(By.XPATH,'/html/body/div[2]/div[2]/div[10]/div/div/div[2]/div/div[2]/div/div[1]/div[3]/div/div/div/div/div[3]/button').click()
                     print("Нажата кнопка продолжить загрузку")
-                    pass
+                    continue
                 except:
                     pass
                 break
