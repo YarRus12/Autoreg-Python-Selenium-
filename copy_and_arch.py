@@ -21,4 +21,4 @@ def archive(folder, to_path):
                 mail_zip.write(os.path.join(folder, file), os.path.relpath(os.path.join(folder, file), 'C:\\Stories\\Fantasy'),
                                   compress_type=zipfile.ZIP_DEFLATED)
 
-    fantasy_zip.close()
+archive(BASE_DIR+"/Data/Copy")
