@@ -6,9 +6,12 @@ BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 
 
 def copy_f(scr, dest):
-    for i in scr:
-        if i.split('.')[1] == 'py':
-            shutil.copytree(i, dest+'/Data/Copy')
+    for i in os.listdir(scr):
+        try:
+            if i.split('.')[1] == 'py':
+                shutil.copy(i, dest+i)
+        except IndexError:
+            pass
 
 
 def archive(folder, to_path):
