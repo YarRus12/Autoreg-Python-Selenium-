@@ -6,7 +6,10 @@ BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 
 
 def copy_f(scr, dest):
-    shutil.copytree(scr, dest+'/Data/Copy')
+    for i in scr:
+        if i.split('.')[1] == 'py':
+            shutil.copytree(i, dest+'/Data/Copy')
+
 
 def archive(folder, to_path):
     """Нужно будет доработать"""
@@ -17,4 +20,4 @@ def archive(folder, to_path):
                                   compress_type=zipfile.ZIP_DEFLATED)
 
 copy_f(BASE_DIR, BASE_DIR+"/Data/Copy")
-archive(BASE_DIR+"/Data/Copy", BASE_DIR+"/Data/Archives")
+#archive(BASE_DIR+"/Data/Copy", BASE_DIR+"/Data/Archives")
