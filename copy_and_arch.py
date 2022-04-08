@@ -5,25 +5,25 @@ import zipfile
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 
 
-def copy_f(scr, dest):
-
+def copy_f(scr, copy_folder):
+    """Нужно будет доработать"""
+    if not os.path.exists(copy_folder):
+        os.makedirs(copy_folder, exist_ok=True)
     for i in os.listdir(scr):
-        """Проблема в том что паки копия не существует, чтобы ее решить нужно найти фрагмент кода в котором
-        мы проверяем наличие папки и если ее нет, то создаем"""
         try:
             if i.split('.')[1] == 'py':
-                shutil.copy(i, dest+i)
+                shutil.copy(i, copy_folder)
         except IndexError:
             pass
 
-
 def archive(folder, to_path):
     """Нужно будет доработать"""
-    mail_zip = zipfile.ZipFile(BASE_DIR, 'w')
-    for folder, subfolders, files in os.walk(folder):
-        for file in files:
-                mail_zip.write(os.path.join(folder, file), os.path.relpath(os.path.join(folder, file), to_path),
-                                  compress_type=zipfile.ZIP_DEFLATED)
+    copy_folder = os.path.join(to_path, 'Copy')
+    copy_f(BASE_DIR, copy_folder)
+    #mail_zip = zipfile.ZipFile(BASE_DIR, 'w')
+    #for folder, subfolders, files in os.walk(folder):
+    #    for file in files:
+    #            mail_zip.write(os.path.join(folder, file), os.path.relpath(os.path.join(folder, file), to_path),
+    #                              compress_type=zipfile.ZIP_DEFLATED)
 
-copy_f(BASE_DIR, BASE_DIR+"/Data/")
-#archive(BASE_DIR+"/Data/Copy", BASE_DIR+"/Data/Archives")
+archive(BASE_DIR, BASE_DIR+"/Data")
