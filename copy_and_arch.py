@@ -15,15 +15,25 @@ def copy_f(scr, copy_folder):
                 shutil.copy(i, copy_folder)
         except IndexError:
             pass
+    return copy_folder
+
+def trash_f(folder):
+    trash_folder = os.path.join(folder, 'Trash')
+    if not os.path.exists(trash_folder):
+        os.makedirs(trash_folder, exist_ok=True)
+    return trash_folder
 
 def archive(folder, to_path):
-    """Нужно будет доработать"""
+    """Осталось архив дописать"""
     copy_folder = os.path.join(to_path, 'Copy')
-    copy_f(BASE_DIR, copy_folder)
+    copy_folder = copy_f(folder, copy_folder)
+    trash_folder = trash_f(folder)
     #mail_zip = zipfile.ZipFile(BASE_DIR, 'w')
     #for folder, subfolders, files in os.walk(folder):
     #    for file in files:
     #            mail_zip.write(os.path.join(folder, file), os.path.relpath(os.path.join(folder, file), to_path),
     #                              compress_type=zipfile.ZIP_DEFLATED)
+    shutil.move(copy_folder, trash_folder)
+
 
 archive(BASE_DIR, BASE_DIR+"/Data")
