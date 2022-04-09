@@ -1,5 +1,6 @@
 import os
 import shutil
+from zipfile import ZipFile
 import zipfile
 
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
@@ -15,25 +16,21 @@ def copy_f(scr, copy_folder):
                 shutil.copy(i, copy_folder)
         except IndexError:
             pass
-    return copy_folder
 
 def trash_f(folder):
     trash_folder = os.path.join(folder, 'Trash')
     if not os.path.exists(trash_folder):
         os.makedirs(trash_folder, exist_ok=True)
-    return trash_folder
 
 def archive(folder, to_path):
     """Осталось архив дописать"""
     copy_folder = os.path.join(to_path, 'Copy')
-    copy_folder = copy_f(folder, copy_folder)
-    trash_folder = trash_f(folder)
-    #mail_zip = zipfile.ZipFile(BASE_DIR, 'w')
-    #for folder, subfolders, files in os.walk(folder):
-    #    for file in files:
-    #            mail_zip.write(os.path.join(folder, file), os.path.relpath(os.path.join(folder, file), to_path),
-    #                              compress_type=zipfile.ZIP_DEFLATED)
-    shutil.move(copy_folder, trash_folder)
-
+    #copy_f(folder, copy_folder)
+    archive_folder = os.path.join(to_path, 'Archives')
+    ziph = zipfile.ZipFile("Archives", 'w')
+    for root, dirs, files in os.walk(folder):
+        for file in files:
+            ziph.write(os.path.join(root, file), arcname=os.path.join(root.replace(folder, ""), file))
+    ziph.close()
 
 archive(BASE_DIR, BASE_DIR+"/Data")
