@@ -27,10 +27,10 @@ def archive(folder, to_path):
     copy_folder = os.path.join(to_path, 'Copy')
     #copy_f(folder, copy_folder)
     archive_folder = os.path.join(to_path, 'Archives')
-    ziph = zipfile.ZipFile("Archives", 'w')
-    for root, dirs, files in os.walk(folder):
+    ziph = zipfile.ZipFile("Archives.zip", 'w')
+    for root, dirs, files in os.walk(to_path):
         for file in files:
-            ziph.write(os.path.join(root, file), arcname=os.path.join(root.replace(folder, ""), file))
+            ziph.write(os.path.join(copy_folder, file), arcname=archive_folder)
     ziph.close()
 
 archive(BASE_DIR, BASE_DIR+"/Data")
